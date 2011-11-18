@@ -1,0 +1,167 @@
+/*
+ *  Daydream
+ *  http://themes.winterbits.com/daydream
+ *
+ *  Handcrafted with by Stefano Giliberti
+ *  winterbits@gmail.com
+ *  winterbits.com
+ */
+ 
+#dayd_ed_1,
+#dayd_ed_2,
+#dayd_ed_3,
+#dayd_ed_4,
+#dayd_ed_5,
+#dayd_ed_6,
+#dayd_ed_7,
+#dayd_ed_8,
+#dayd_ed_9,
+#dayd_ed_10,
+#dayd_ed_11,
+#dayd_ed_12,
+#dayd_ed_13,
+#dayd_ed_14,
+#dayd_ed_15,
+#dayd_ed_16,
+#dayd_ed_17,
+#dayd_ed_18,
+#dayd_ed_19,
+#dayd_ed_20,
+#dayd_ed_21,
+#dayd_ed_22,
+#dayd_ed_23,
+#dayd_ed_24,
+#dayd_ed_25,
+#dayd_ed_26,
+#dayd_ed_27,
+#dayd_ed_28,
+#dayd_ed_29,
+#dayd_ed_30,
+#dayd_ed_31 {
+	background: #fafafa !important;
+	padding: 2px 6px !important;
+	color: #333 !important;
+	cursor: pointer;
+}
+
+#dayd_ed_1:hover,
+#dayd_ed_2:hover,
+#dayd_ed_3:hover,
+#dayd_ed_4:hover,
+#dayd_ed_5:hover,
+#dayd_ed_6:hover,
+#dayd_ed_7:hover,
+#dayd_ed_8:hover,
+#dayd_ed_9:hover,
+#dayd_ed_10:hover,
+#dayd_ed_11:hover,
+#dayd_ed_12:hover,
+#dayd_ed_13:hover,
+#dayd_ed_14:hover,
+#dayd_ed_15:hover,
+#dayd_ed_16:hover,
+#dayd_ed_17:hover,
+#dayd_ed_18:hover,
+#dayd_ed_19:hover,
+#dayd_ed_20:hover,
+#dayd_ed_21:hover,
+#dayd_ed_22:hover,
+#dayd_ed_23:hover,
+#dayd_ed_24:hover,
+#dayd_ed_25:hover,
+#dayd_ed_26:hover,
+#dayd_ed_27:hover,
+#dayd_ed_28:hover,
+#dayd_ed_29:hover,
+#dayd_ed_30:hover,
+#dayd_ed_31:hover {
+	background: #fff;
+	-webkit-box-shadow: 0 2px 2px #999;
+	-moz-box-shadow: 0 2px 2px #999;
+	box-shadow: 0 2px 2px #999;
+	-webkit-transform: scale(1.15);
+}
+
+#dayd_ed_1:active,
+#dayd_ed_2:active,
+#dayd_ed_3:active,
+#dayd_ed_4:active,
+#dayd_ed_5:active,
+#dayd_ed_6:active,
+#dayd_ed_7:active,
+#dayd_ed_8:active,
+#dayd_ed_9:active,
+#dayd_ed_10:active,
+#dayd_ed_11:active,
+#dayd_ed_12:active,
+#dayd_ed_13:active,
+#dayd_ed_14:active,
+#dayd_ed_15:active,
+#dayd_ed_16:active,
+#dayd_ed_17:active,
+#dayd_ed_18:active,
+#dayd_ed_19:active,
+#dayd_ed_20:active,
+#dayd_ed_21:active,
+#dayd_ed_22:active,
+#dayd_ed_23:active,
+#dayd_ed_24:active,
+#dayd_ed_25:active,
+#dayd_ed_26:active,
+#dayd_ed_27:active,
+#dayd_ed_28:active,
+#dayd_ed_29:active,
+#dayd_ed_30:active,
+#dayd_ed_31:active {
+	position: relative;
+	top: 2px;
+}
+
+#dayd_ed_3 {
+	background: url(dayd_ed_3.png) center no-repeat #fafafa !important;
+	width: 33px;
+	text-indent: -9999px;
+}
+
+#dayd_ed_12 {
+	background: url(dayd_ed_12.png) center no-repeat #fafafa !important;
+	width: 33px;
+}
+
+#dayd_ed_13 {
+	background: url(dayd_ed_13.png) center no-repeat #fafafa !important;
+	width: 55px;
+}
+
+#dayd_ed_14 {
+	background: url(dayd_ed_14.png) center no-repeat #fafafa !important;
+	width: 53px;
+}
+
+#dayd_ed_15 {
+	background: url(dayd_ed_15.png) center no-repeat #fafafa !important;
+	width: 30px;
+}
+
+#dayd_ed_21 {
+	background: url(dayd_ed_21.png) center no-repeat #fafafa !important;
+	width: 30px;
+	text-indent: -9999px;
+}
+
+#dayd_ed_24 {
+	background: url(dayd_ed_24.png) center no-repeat #fafafa !important;
+	width: 45px;
+	text-indent: -9999px;
+}
+
+#dayd_ed_28 {
+	background: url(dayd_ed_28.png) center no-repeat #fafafa !important;
+	width: 30px;
+	text-indent: -999px;
+}
+
+#dayd_ed_29 {
+	background: url(dayd_ed_29.png) center no-repeat #fafafa !important;
+	width: 30px;
+}

@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	
+	<!-- Title -->
+	<title>Theme Documentation</title>
+		
+	<!-- CSS -->
+	<style>
+	article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0;font-size:13px;line-height:1.231}body,button,input,select,textarea{font-family:sans-serif;color:#222}::-moz-selection{background:#fe57a1;color:#fff;text-shadow:none}::selection{background:#fe57a1;color:#fff;text-shadow:none}a{-webkit-transition:color .25s linear;-moz-transition:color .25s linear;-o-transition:color .25s linear;-ms-transition:color .25s linear;transition:color .25s linear}a,a:visited{color:#00e}a:hover{color:#000}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:2px dashed #ccc;margin:2em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 30px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;*margin-left:-7px;padding:0}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;*overflow:visible}table button,table input{*overflow:auto}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;resize:vertical}input:valid,textarea:valid{}input:invalid,textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr}.ir br{display:none}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}@media print{ *{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important} a,a:visited{text-decoration:underline} a[href]:after{content:"("attr(href) ")"} abbr[title]:after{content:"("attr(title) ")"} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""} pre,blockquote{border:1px solid #999;page-break-inside:avoid} thead{display:table-header-group} tr,img{page-break-inside:avoid} img{max-width:100% !important} @page{margin:0.5cm} p,h2,h3{orphans:3;widows:3} h2,h3{page-break-after:avoid}}body{font-family:Georgia,Palatino,"Palatino Linotype",Times,"Times New Roman",serif;font-size:1em;line-height:1.4em;color:#333}h1,h2,h3,h4,h5,h6{font-weight:normal}h2{line-height:1.5em}.center{display:block;text-align:center}.desc{color:#666}.demo{display:block;margin:3em auto 3.5em;border:2px dashed #666;padding:10px}.container{width:60%;margin:0 auto;padding:3em 0}.space{height:7em}.spacer{margin:5em 0}#summary{margin:3em 0}#summary a{text-decoration:none;color:#333}#summary a:hover{text-decoration:underline}#summary h2{margin:0}table{margin:2em 0;width:100%}table td{text-align:center;vertical-align:middle;border:1px solid #ccc;padding:.5em;width:16%}
+	</style>
+
+</head>
+
+<body>
+	
+	<!-- Main container -->
+	<div class="container">
+		
+		<h1 class="center">Daydream WordPress Theme</h1>
+		<h4 class="center desc">Crafted by Stefano Giliberti, winterbits.com</h4>
+		
+		<hr />
+		
+		<h4 class="center">Hello there! <strong>Thank you</strong> for buying my theme.
+		Your support is sincerely appreciated :)<br />
+		This documentation will guide you through the installation of this theme and show you
+		how to configure a general website. If you have any questions that are
+		beyond the scope of this document, feel free to open a help request on the dedicated <a href="http://help.winterbits.com">Help Center</a>
+		or contact me directly on <a href="mailto:winterbits@gmail.com?subject=Daydream">winterbits@gmail.com</a>.</h4>
+		
+		<hr />
+			
+		<ol id="summary">
+		<li><h2><a href="#preamble">Preamble</a></h2></li>
+		<li><h2><a href="#gettingStarted">Getting started</a></h2>
+			<ol>
+				<li><a href="#themeInstallation">Theme Installation</a></li>
+				<li><a href="#mainMenu">Configuring the Main Menu</a></li>
+				<li><a href="#footerSetup">Configuring up the Footer</a></li>
+				<li><a href="#homeSetup">Setting up the Homepage</a></li>
+				<li><a href="#sliderSetup">Configuring the Slider</a></li>
+				<li><a href="#blogConfig">Setting up the Blog</a></li>
+				<li><a href="#showcaseSetup">Setting up a Showcase</a></li>
+			</ol>
+		</li>
+		<li><h2><a href="#showcase">Showcase</a></h2>
+			<ol>
+				<li><a href="#addingItems">Adding Items</a></li>
+				<li><a href="#assigningFilters">Assigning Filters</a></li>
+				<li><a href="#usingLightbox">Using the Lightbox</a></li>
+				<li><a href="#usingCustomLink">Using a Custom Link</a></li>
+			</ol>
+		</li>
+		<li><h2><a href="#widgetsList">Managing Widgets</a></h2></li>
+		<li><h2><a href="#shortcodes">Using Shortcodes</a></h2></li>
+		<li><h2><a href="#extrasAndTips">Extras &amp; Tips</a></h2></li>
+		<li><h2><a href="#technicalDetails">Technical Details</a></h2></li>
+		<li><h2><a href="#">Ending Credits</a></h2></li>
+		</ol>
+		
+		<hr class="spacer" />
+		
+		<h1 id="preamble" class="center"><small>1.</small> Preamble</h1>
+		<p>Before starting, there's a few informations you need to know, just to make everything easier.</p>
+		
+		<h3><strong>Pages Settings</strong></h3>
+		<p>Every setting regarding a page (or a showcase) is located inside the edit page mode of
+		WordPress itself, not in the Options Panel. That means that every page has its own little option panel.</p>
+		
+		<img src="images/page-settings-1.png" alt="" class="demo" />
+		
+		<h3 id="thumbnails"><strong>Thumbnails</strong> (Images Resizing)</h3>
+		<p>Unlike the majority of the WordPress Themes, Daydream does not use
+		the popular image resizing script TimThumb. The reason why I decided to drop it is pretty simple: I didn't want
+		to rely on any external script that may <a href="http://bit.ly/n8YdTd" target="_blank">compromise</a> my users's security and I 
+		wanted to rely completely on the WordPress engine.</p>
+		
+		<p>The difference between the two methods of resizing is that TimThumb can recreate every image on-the-fly, while
+		WordPress creates a series of copies of your image of different sizes after you upload them. So if you change, for
+		instance, the size of the blog featured images on the theme Options Panel, from 100 pixels to 200 pixels, WordPress 
+		will not find the 200 pixels images and show the 100 pixels one, simply because when you uploaded them the image size 
+		was configured to 100.</p>
+		
+		<p><strong>However</strong>, even if it sounds a little bit problematic, there's an easy solution. Using a WordPress 
+		plugin you can recreate every Thumbnail at any time. I've included a copy of the best Thumbnail Rebuilder around at the moment
+		("Ajax Thumbnail Rebuild"). Simply install it and remember to refresh your images after you change some image parameter setting.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="gettingStarted" class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="themeInstallation" class="center"><small>1.</small> Theme Installation</h2>
+		
+		<p>Installing a WordPress theme is the most easy thing in the world! There are two ways to install it:</p>
+		
+		<p>"<strong>I know what FTP is</strong>": Using your favorite FTP application, upload the "Daydream"
+		<em>folder</em> in your server's <code>/wp-content/themes</code> folder.</p>
+		
+		<p><strong>Via WordPress</strong>: Go to <em>Appearance &rarr; Install Themes &rarr; Upload</em> and choose the "Daydream.zip" file. Click "Install Now" to install the theme.</p>
+		
+		<p>Once you have uploaded it, go to <em>Appearance &rarr; Themes</em> and finally activate it!</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="mainMenu" class="center"><small>2.</small> Configuring the Main Menu</h2>
+		
+		<p>This theme makes use of the WordPress Nav Menu feature, so you can configure your Main Menu simply dragging and
+		dropping your elements.</p>
+		
+		<p>To configure the Main Menu from scratch, go to <em>Appearance &rarr; Menu</em>, click on the <em>+</em> Icon and create it.</p>
+		
+		<img src="images/menu-1.png" alt="" class="demo" />
+		
+		<p>Now on the left side of the Menu Manager, select your Menu under the <em>Theme Locations</em> block and save. That's it!
+		Now you can start filling your menu with your items.</p>
+		
+		<img src="images/menu-2.png" alt="" class="demo" />
+		
+		<p><strong>Tip</strong>: To create a Drop-down menu, drag a menu item slightly on the right of his parent.</p>
+		
+		<img src="images/menu-3.png" alt="" class="demo" />
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="footerSetup" class="center"><small>3.</small> Configuring the Footer</h2>
+		
+		<p>Even if it is positioned at the end of every page, the Footer can be considered as one of the most important part of
+		a website. It may contain legal informations or useful or links to the page's author or to a social profile like Twitter
+		or Facebook.</p>
+		
+		<p>The footer of this theme consists in two blocks. The left block is a content block that you can fill with anything
+		you want, while the right one contains links to your social network profiles.</p>
+		
+		<p>To configure the content of the left block, go to the <em>Appearance &rarr; Daydream</em> and select the <em>General</em>
+		tab. Now scroll to <em>Footer Info</em> and fill the <strong>Left Area</strong> textarea with anything you want. You can
+		also use the theme's <a href="#shortcodesList">Shortcodes</a> to add some cool stuff!</p>
+		
+		<img src="images/footer-1.png" alt="" class="demo" />
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="homeSetup" class="center"><small>3.</small> Setting up the Homepage</h2>
+		
+		<p>To configure your homepage, create a page (e.g. "Homepage"), and assign to it the "<strong>Widgetized Homepage</strong>"
+		Page Template.</p>
+		
+		<img src="images/home-1.png" alt="" class="demo" />
+		
+		<p>To set the page you just created as "Front page", go to <em>Settings &rarr; Reading</em>. Now switch the "Front page 
+		displays" input to "<strong>A static page</strong>" and select your page under the "Front page:" select box.
+		Don't forget to hit the "Save Changes" button.</p>
+		
+		<img src="images/home-2.png" alt="" class="demo" />
+		
+		<h3>The Content</h3>
+		
+		<p>There are two ways to configure your Homepage content. You can simply enter your content inside your page when in the edit
+		mode, or you can use <strong>Widgets</strong>. After assigning the Page Template to your page, you will notice that 3 new
+		sidebar areas <em>magically</em> appeared in the <em>Appearance &rarr; Widgets</em> section of WordPress.</p>
+		
+		<img src="images/home-3.png" alt="" class="demo" />
+		
+		<p>Every Widget that you'll add in these Sidebars will be displayed in your Homepage. Have a look at the available
+		<a href="#widgetsList">Widgets</a> and see what you can achieve with them.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="sliderSetup" class="center"><small>4.</small> Configuring the Slider</h2>
+		
+		<p>This theme includes 3 powerful Homepage Sliders:
+		<ol>
+			<li><strong>Daydream Slider</strong></li>
+			<li><strong>Nivo Slider</strong> by Dev7studios</li>
+			<li><strong>Orbit Slider</strong> by ZURB</li>
+		</ol>
+		</p>
+		
+		<p>To select your favorite Slider, open the Daydream Options Panel located in <em>Appearance &rarr; Daydream</em>. Now
+		switch to the "Slider Area" tab and choose a slider. Hit the "Save Settings" button to save your settings (no way!)</p>
+		
+		<img src="images/slider-1.png" alt="" class="demo" />
+		
+		<p>You can manage the Homepage Slides in the "Slides" tab.</p>
+		
+		<h3>The Daydream Slider</h3>
+		
+		<p>While the "Nivo Slider" and the "Orbit Slider" are image-based Sliders (and do not require any explanation) the Daydream 
+		Slider offers a much more bigger range of options and layout combinations. Let's see how it works.</p>
+		
+		<h4><strong>Responsive Layout</strong></h4>
+		
+		<p>The Daydream Slider configures your Slides depending on what fields you compile. For instance, if you setup a Slide
+		without assigning a Picture to it, the Slide will be wider and fill the whole horizontal space.</p>
+		
+		<img src="images/slider-2.png" alt="" class="demo" />
+		
+		<p>Otherwise, if you use both Picture and Content, a "Content Layout" option will appear in the Slides Panel and the Slide will change
+		as well.</p>
+		
+		<img src="images/slider-3.png" alt="" class="demo" />
+		
+		<p>The same <em>concept</em> applies to the "Lightbox" option, that is displayed only if you configure a "Url" option.</p>
+		
+		<h4><strong>More Than Pictures</strong></h4>
+		
+		<p>The Daydream Slider also gives you the choice to use a Video as Picture. The only thing to do is enter a Video Url
+		(Youtube, Vimeo or a <a href="#html5Videos">HTML5 Video</a>) inside the "Picture" input.</p>
+		
+		<img src="images/slider-5.png" alt="" class="demo" />
+		
+		<p>If you don't need a Slider, you can choose the "None" option from the Sliders List or enter a custom content in the 
+		<em>Slider Area</em> tab of the Daydream Options Panel.</p>
+		
+		<img src="images/slider-4.png" alt="" class="demo" />
+		
+		<p>You can display a Slider in other pages as well, using the <code>[slider]</code> <a href="#sliderShortcode">Shortcode</a>.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="blogConfig" class="center"><small>5.</small> Setting up the Blog</h2>
+		
+		<p>To configure a Blog all you have to do is create a page (e.g. "Blog"), go to <em>Settings &rarr; Reading</em>, switch the 
+		"Front page displays" input to "<strong>A static page</strong>" and select your page under the "Posts page:" select box. 
+		Don't forget to hit the "Save Changes" button.</p>
+		
+		<img src="images/blog-1.png" alt="" class="demo" />
+		
+		<p>That's it! You can find all the available options for the Blog in the "Layout" tab of the Daydream Options Panel.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>2.</small> Getting Started</h1>
+		<h2 id="showcaseSetup" class="center"><small>7.</small> Setting up a Showcase</h2>
+		
+		<p>Daydream gives you the possibility to create <strong>infinite</strong> Showcase Galleries with <strong>individual</strong>
+		settings.</p>
+		
+		<p>Creating a Showcase is amazingly simple. All you have to do is create a new page (e.g. Showcase), assign to that page the
+		"<strong>Daydream Showcase</strong>" Page Template and hit the blue "Update" button.</p>
+		
+		<img src="images/showcase-1.png" alt="" class="demo" />
+		
+		<p>After you do that, a new <em>Post Type</em> with the same name of your page will <em>magically</em> appear on the left side
+		of the WordPress Administration.</p>
+		
+		<img src="images/showcase-2.png" alt="" class="demo" />
+		
+		<p>More importantly, your page will be transformed from a normal page to a Showcase Page, so a little Option Panel will take the
+		place of the editor.</p>
+		
+		<img src="images/showcase-3.png" alt="" class="demo" />
+		
+		<hr class="spacer" />
+		
+		<h1 id="showcase" class="center"><small>3.</small> Showcase</h1>
+		<h2 id="addingItems" class="center"><small>1.</small> Adding Items</h2>
+		
+		<p>Adding items to a Showcase is just like adding Posts to a Blog. All you have to do is "open" your Showcase Post Type (named as
+		your Showcase page) and hit the "Add New Item" link.</p>
+		
+		<img src="images/showcase-4.png" alt="" class="demo" />
+		
+		<p>Now, depending on the "Gallery Layout" option you have selected on your Showcase page, a series of option will be available.
+		For instance, if you selected the "Slideshow" option, no editor will be visualized because Slideshow Items do not need any
+		content.</p>
+		
+		<p>A Showcase Item consists of a Featured Image, a Title, a Excerpt (a short description) and the Content. What you will insert inside the Content block will be displayed as a page when the item is clicked.</p>
+		
+		<h4><strong>Featured Images</strong></h4>
+		
+		<p>The Featured Image is basically the picture that will be displayed in the Showcase to represent your item. To apply it, simply
+		click the "Set Featured Image" link located under the "Featured Image" block. A Lightbox will appear, now choose your image, select
+		a size (usually "Full Size") and click the "Use as featured image" link.</p>
+		
+		<img src="images/showcase-5.png" alt="" class="demo" />
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>3.</small> Showcase</h1>
+		<h2 id="assigningFilters" class="center"><small>2.</small> Assigning Filters</h2>
+		
+		<p>This theme gives you the chance to assign multiple Tags or "Filters" to your Showcase Items so that your users can navigate
+		your Gallery or Portfolio and choose to filter your items basing on the category you have assigned to them (e.g. Logos, Interfaces,
+		Prints).</p>
+		
+		<img src="images/showcase-6.png" alt="" class="demo" />
+		
+		<p>To assign a Filter to your Showcase Item, visualize it in the edit mode, and start adding them as you would do with Tags on normal
+		WordPress Posts.</p>
+		
+		<img src="images/showcase-7.png" alt="" class="demo" />
+		
+		<p>Fin! Now your Showcase Page will display all the available items in the "Tools" are of the Website's Layout.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>3.</small> Showcase</h1>
+		<h2 id="usingLightbox" class="center"><small>3.</small> Using the Lightbox</h2>
+		
+		<p>If you want to show a Lightbox when clicking to your Showcase Item, open it in the edit mode and check the "Use Lightbox" checkbox.
+		Always remember to click the blue "Update" button to apply your changes.</p>
+		
+		<img src="images/showcase-8.png" alt="" class="demo" />
+		
+		<p>After you do that, a series of options will appear.</p>
+		
+		<h4><strong>Image Lightbox</strong></h4>
+		
+		<img src="images/showcase-9.png" alt="" class="demo" />
+	
+		<ul>
+			<li><strong>Url</strong>: The url to the picture you want to show inside the Lightbox. By default it is the Featured Image.</li>
+			<li><strong>Caption</strong>: The caption to show in the open Lightbox. By default the excerpt will be used as Caption.</li>
+			<li><strong>Gallery</strong>: You have also the option to group various Gallery item. To do that, use the same "Gallery" value
+			on the items you want to group together.</li>
+		</ul>
+		
+		<h4><strong>Video Lightbox</strong></h4>
+		
+		<img src="images/showcase-10.png" alt="" class="demo" />
+		
+		<p>To show a video inside your Lightbox, simply enter the url to your Youtube, Vimeo or <a href="#html5Videos">HTML5 Video</a>.</p>
+		
+		<h4><strong>Webpage Lightbox</strong></h4>
+		
+		<img src="images/showcase-11.png" alt="" class="demo" />
+		
+		<p>You can also show any web page inside the Lightbox. To do that, simply enter the url inside the "Url" field. By default the
+		Showcase Item page will be displayed.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center"><small>3.</small> Showcase</h1>
+		<h2 id="usingCustomLink" class="center"><small>4.</small> Using a Custom Link</h2>
+		
+		<img src="images/showcase-12.png" alt="" class="demo" />
+		
+		<p>You can enter a Custom Link if you want to redirect your user to a different page or anything else.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="widgetsList" class="center"><small>4.</small> Managing Widgets</h1>
+		
+		<p>Daydream includes 13 Hand-made Widgets that will help you to build your website with just a few clicks. In the next part I'll cover 
+		the Widgets that require some explanation, omitting the basic ones.</p>
+		
+		<h4><strong>Columns</strong></h4>
+		
+		<p>The Columns Widget is the most powerful Widget included with the theme. Using it you can create multiple Columns without touching a
+		line of code.</p>
+		
+		<p>You can also assign a different icon to every Column, inserting the url to your icon or using a number referencing to a Daydream Icon.
+		Here's a table displaying the available icons:</p>
+		
+		<table id="iconsList">
+		    <thead>
+				<tr>
+				    <th>&rarr;</th>
+				    <th></th>
+				    <th>&rarr;</th>
+				    <th></th>
+				    <th>&rarr;</th>
+				    <th></th>
+				</tr>
+		    </thead>
+		    <tbody>
+				<tr>
+				    <td>1</td>
+				    <td><img src="images/is_1.png" alt="" /></td>
+				    <td>2</td>
+				    <td><img src="images/is_2.png" alt="" /></td>
+				    <td>3</td>
+				    <td><img src="images/is_3.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>4</td>
+				    <td><img src="images/is_4.png" alt="" /></td>
+				    <td>5</td>
+				    <td><img src="images/is_5.png" alt="" /></td>
+				    <td>6</td>
+				    <td><img src="images/is_6.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>7</td>
+				    <td><img src="images/is_7.png" alt="" /></td>
+				    <td>8</td>
+				    <td><img src="images/is_8.png" alt="" /></td>
+				    <td>9</td>
+				    <td><img src="images/is_9.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>10</td>
+				    <td><img src="images/is_10.png" alt="" /></td>
+				    <td>11</td>
+				    <td><img src="images/is_11.png" alt="" /></td>
+				    <td>12</td>
+				    <td><img src="images/is_12.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>13</td>
+				    <td><img src="images/is_13.png" alt="" /></td>
+				    <td>14</td>
+				    <td><img src="images/is_14.png" alt="" /></td>
+				    <td>15</td>
+				    <td><img src="images/is_15.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>16</td>
+				    <td><img src="images/is_16.png" alt="" /></td>
+				    <td>17</td>
+				    <td><img src="images/is_17.png" alt="" /></td>
+				    <td>18</td>
+				    <td><img src="images/is_18.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>19</td>
+				    <td><img src="images/is_19.png" alt="" /></td>
+				    <td>20</td>
+				    <td><img src="images/is_20.png" alt="" /></td>
+				    <td>21</td>
+				    <td><img src="images/is_21.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>22</td>
+				    <td><img src="images/is_22.png" alt="" /></td>
+				    <td>23</td>
+				    <td><img src="images/is_23.png" alt="" /></td>
+				    <td>24</td>
+				    <td><img src="images/is_24.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>25</td>
+				    <td><img src="images/is_25.png" alt="" /></td>
+				    <td>26</td>
+				    <td><img src="images/is_26.png" alt="" /></td>
+				    <td>27</td>
+				    <td><img src="images/is_27.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>28</td>
+				    <td><img src="images/is_28.png" alt="" /></td>
+				    <td>29</td>
+				    <td><img src="images/is_29.png" alt="" /></td>
+				    <td>30</td>
+				    <td><img src="images/is_30.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>31</td>
+				    <td><img src="images/is_31.png" alt="" /></td>
+				    <td>32</td>
+				    <td><img src="images/is_32.png" alt="" /></td>
+				    <td>33</td>
+				    <td><img src="images/is_33.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>34</td>
+				    <td><img src="images/is_34.png" alt="" /></td>
+				    <td>35</td>
+				    <td><img src="images/is_35.png" alt="" /></td>
+				    <td>36</td>
+				    <td><img src="images/is_36.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>37</td>
+				    <td><img src="images/is_37.png" alt="" /></td>
+				    <td>38</td>
+				    <td><img src="images/is_38.png" alt="" /></td>
+				    <td>39</td>
+				    <td><img src="images/is_39.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>40</td>
+				    <td><img src="images/is_40.png" alt="" /></td>
+				    <td>41</td>
+				    <td><img src="images/is_41.png" alt="" /></td>
+				    <td>42</td>
+				    <td><img src="images/is_42.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>43</td>
+				    <td><img src="images/is_43.png" alt="" /></td>
+				    <td>44</td>
+				    <td><img src="images/is_44.png" alt="" /></td>
+				    <td>45</td>
+				    <td><img src="images/is_45.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>46</td>
+				    <td><img src="images/is_46.png" alt="" /></td>
+				    <td>47</td>
+				    <td><img src="images/is_47.png" alt="" /></td>
+				    <td>48</td>
+				    <td><img src="images/is_48.png" alt="" /></td>
+				</tr>
+				<tr>
+				    <td>49</td>
+				    <td><img src="images/is_49.png" alt="" /></td>
+				    <td>50</td>
+				    <td><img src="images/is_50.png" alt="" /></td>
+					<td><small><em><a href="http://iconsweets2.com/">iconSweets</a></em></small></td>
+				</tr>
+		    </tbody>
+		</table>
+		
+		<p>Jump to the <a href="#extrasAndTips">Extras &amp; Tips</a> section for smart uses of the Columns Widget and more.</p>
+		
+		<h4><strong>Contact Form</strong></h4>
+		
+		<p>This Widget will display a simple Contact Form that your users can use to contact you.</p>
+		
+		<h4><strong>Text</strong></h4>
+		
+		<p>This Text Widget differs from the WordPress one for the possibility to use Shortcodes inside of it.</p>
+		
+		<h4><strong>Video</strong></h4>
+		
+		<p>With this Widget you can add any Youtube, Vimeo or HTML5 Video inside your page.</p>
+				
+		<p id="html5Videos"><em>What's a HTML5 Video?</em></p>
+		
+		<p>The fresh HTML5 introduced a new way to add videos to a 
+		website, using a more direct HTML tag made just for that, avoiding any external plugin like Flash and pushing the internet
+		to the future!</p>
+		
+		<p>This theme uses the <a href="http://videojs.com">VideoJS</a> jQuery Plugin to give them a nice UI, better 
+		controls and a Flash fallback for browsers that still do not support the HTML5 &lt;video> tag.</p>
+		
+		<p>The supported Video formats for HTML5 Videos are .mp4, .ogv and .webm. This theme will automatically search for
+		all video formats in the same folder of the provided video.</p>
+		
+		<h4><strong>Screenshots</strong></h4>
+		
+		<p>This Widget, initially conceived for the Homepage, let you add three columns of big links associated with great icons
+		with the main purpose of giving emphasis to your product or website's feature. It gives you the possibility to use any link
+		and also activate a Lightbox.</p>
+		
+		<h4 id="testimonialsWidget"><strong>Testimonials</strong></h4>
+		
+		<p>This Widget displays a cool Slider that will automatically display the posts from the Category you've chosen as Slides
+		containing a picture of your testimonial (Featured Image), the message (the Content of the post) and his name (the Title).</p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="shortcodes" class="center"><small>5.</small> Shortcodes</h1>
+		
+		<p>Daydream includes many Shortcodes that let you add from simple to complex content using just a few characters.</p>
+		
+		<p>You can find all Shortcodes in the HTML tab of the WordPress editor, so that you can add them just clicking a button.</p>
+		
+		<img src="images/shortcodes-1.png" alt="" class="demo" />
+		
+		<h2 id="shortcodesList"><strong>Shortcodes List</strong></h2>
+		
+		<p><code>[button][/button]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>color</strong>: orange, blue, red, green, grey, violet, black</li>
+			<li><strong>url</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[button color=blue link=http://www.google.com]A link to Google[/button]</code></p>
+				
+		<img src="images/shortcodes-2.png" alt="" class="demo" />
+		
+		<p><code>[dropcap][/dropcap]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[dropcap]M[/dropcap]</code></p>
+		
+		<img src="images/shortcodes-3.png" alt="" class="demo" />
+		
+		<p><code>[quote][/quote]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>align</strong>: left, right</li>
+			<li><strong>cite</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[quote cite="John Doe"]Lorem Bibendum Ullamcorper Tristique Malesuada[/quote]</code></p>
+		
+		<img src="images/shortcodes-4.png" alt="" class="demo" />
+		
+		<p><code>[message][/message]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[message]Sollicitudin Fermentum Dolor Tellus Elit[/message]</code></p>
+		
+		<img src="images/shortcodes-5.png" alt="" class="demo" />
+		
+		<p><code>[alert][/alert]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[alert]Sollicitudin Fermentum Dolor Tellus Elit[/alert]</code></p>
+		
+		<img src="images/shortcodes-6.png" alt="" class="demo" />
+		
+		<p><code>[success][/success]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[success]Sollicitudin Fermentum Dolor Tellus Elit[/success]</code></p>
+		
+		<img src="images/shortcodes-7.png" alt="" class="demo" />
+		
+		<p><code>[notice][/notice]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[notice]Sollicitudin Fermentum Dolor Tellus Elit[/notice]</code></p>
+		
+		<img src="images/shortcodes-8.png" alt="" class="demo" />
+		
+		<p><code>[tabs][/tabs] &amp; [tab][/tab]</code></p>
+		
+		<p><code>[tab][/tab]</code> Available options:</p>
+		
+		<ul>
+			<li><strong>name</strong>:</li>
+			<li><strong>open</strong>: yes</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[tabs]<br />[tab name="Tab 1"]Tab 1 content[/tab]<br />[tab name="Tab 2"]Tab 2 content[/tab]<br />[/tabs]</code></p>
+		
+		<img src="images/shortcodes-9.png" alt="" class="demo" />
+		
+		<p><code>[toggle][/toggle]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>name</strong>: Show Content</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[toggle name="Show Content"]Content[/toggle]</code></p>
+		
+		<img src="images/shortcodes-10.png" alt="" class="demo" />
+		
+		<p><code>[code][/code]</code></p>
+		
+		<p>Usage:</p>
+		
+		<p><code>[code].logo { margin-top: 15px; }[/code]</code></p>
+		
+		<img src="images/shortcodes-11.png" alt="" class="demo" />
+		
+		<p><code>[twitter-marquee]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>username</strong>:</li>
+			<li><strong>size</strong>: small, medium</li>
+			<li><strong>tweets</strong>: 1, 2, 3 ...</li>
+			<li><strong>speed</strong>: slow, normal, fast, 1, 2, 3 ...</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[twitter-marquee username=envato size=medium tweets=5 speed=slow]</code></p>
+		
+		<img src="images/shortcodes-12.png" alt="" class="demo" />
+		
+		<p><code>[youtube]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+			<li><strong>size</strong>: small, large</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[youtube url=http://www.youtube.com/watch?v=clfAq1xSevc size=small]</code></p>
+		
+		<img src="images/shortcodes-13.png" alt="" class="demo" />
+		
+		<p><code>[vimeo]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+			<li><strong>size</strong>: small, large</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[vimeo url=http://vimeo.com/27495689 size=small]</code></p>
+		
+		<img src="images/shortcodes-14.png" alt="" class="demo" />
+		
+		<p><code>[video]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+			<li><strong>size</strong>: small, large</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[video url=http://video-js.zencoder.com/oceans-clip.mp4 size=small]</code></p>
+		
+		<img src="images/shortcodes-15.png" alt="" class="demo" />
+		
+		<p id="sliderShortcode"><code>[slider][/slider] &amp; [slide]</code></p>
+		
+		<p><code>[slide]</code> Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+			<li><strong>caption</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[slider]<br />[slide url=http://.../uploads/2011/08/slide_9.jpg caption="Lorem ipsum"]<br />[slide url=http://.../uploads/2011/08/slide_10.jpg caption="Cras Ridiculus Condimentum"]<br />[/slider]</code></p>
+		
+		<img src="images/shortcodes-16.png" alt="" class="demo" />
+		
+		<p><code>[tooltip][/tooltip]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>caption</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[tooltip caption="Hello!"]Vestibilum id ligula porta.[/tooltip]</code></p>
+		
+		<img src="images/shortcodes-17.png" alt="" class="demo" />
+		
+		<p><code>[columns-container][/columns-container] &amp; [column][/column]</code></p>
+		
+		<p><code>[column]</code> Available options:</p>
+		
+		<ul>
+			<li><strong>size</strong>: 2, 3, 4, 5, 1/2, 1/3, 1/4, 1/5, 2/3, 3/4</li>
+			<li><strong>icon</strong>: http:// or <a href="#iconsList">1, 2, 3 ...</a></li>
+			<li><strong>height</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[columns-container]<br />[column size=3 icon=1]Column 1[/column]<br />[column size=3 icon=2]Column 2[/column]<br />[column size=3 icon=3]Column 3[/column]<br />[/columns-container]</code></p>
+		
+		<img src="images/shortcodes-18.png" alt="" class="demo" />
+		
+		<p><code>[slogan][/slogan]</code></p>
+				
+		<p>Usage:</p>
+		
+		<p><code>[slogan]Welcome to My Awesome Website![/slogan]</code></p>
+		
+		<img src="images/shortcodes-19.png" alt="" class="demo" />
+		
+		<p><code>[mark][/mark]</code></p>
+				
+		<p>Usage:</p>
+		
+		<p><code>Lorem ipsum dolor sit amet, [mark]consectetur[/mark] adipiscing elit.</code></p>
+		
+		<img src="images/shortcodes-20.png" alt="" class="demo" />
+		
+		<p><code>[map]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>center</strong>:</li>
+			<li><strong>zoom</strong>: 1, 2, 3 ...</li>
+			<li><strong>size</strong>:</li>
+			<li><strong>maptype</strong>: roadmap, satellite, terrain, hybrid</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[map center="Area 51" zoom=12 size=400x200 maptype=satellite]</code></p>
+		
+		<img src="images/shortcodes-21.png" alt="" class="demo" />
+		
+		<p id="testimonialsShortcode"><code>[testimonials]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>category</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[testimonials category=testimonials_category]</code></p>
+		
+		<img src="images/shortcodes-22.png" alt="" class="demo" />
+		
+		<p><code>[link][/link]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[link url=http://www.google.com]Visit Google.com[/link]</code></p>
+		
+		<img src="images/shortcodes-23.png" alt="" class="demo" />
+		
+		<p><code>[pic]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>url</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[pic url=http://.../uploads/2011/08/post_11.jpg]</code></p>
+		
+		<img src="images/shortcodes-24.png" alt="" class="demo" />
+		
+		<p id="sidebarShortcode"><code>[sidebar]</code></p>
+		
+		<p>Available options:</p>
+		
+		<ul>
+			<li><strong>id</strong>:</li>
+		</ul>
+		
+		<p>Usage:</p>
+		
+		<p><code>[sidebar id=haku_sidebar_0]</code></p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="extrasAndTips" class="center"><small>6.</small> Extras &amp; Tips</h1>
+		
+		<p>Daydream includes a few Extra Options that will make the whole experience of using the theme a lot easier. You can
+		find all Extras in the Options Panel, under the "Extras" tab. <em>Appearance &rarr; Daydream &rarr; Extras</em>.</p>
+		
+		<h4><strong>Categories Exclusion</strong></h4>
+		
+		<p>These theme gives you the possibility to exclude any Post Category you want from all user-accessible areas of your
+		website. This functions come in very handy, for instance, when using the "Testimonials Slider" <a href="#testimonialsWidget">Widget</a> 
+		or <a href="#testimonialsShortcode">Shortcode</a>. So you can add your "Testimonials" posts hiding them from the Blog or any other area.</p>
+		
+		<h4><strong>Theme Updates</strong></h4>
+		
+		<p>If you like to keep your themes up-to-date, you can choice to enable the Updates Notification, so
+		when a new version of Daydream will be available you'll be notified.</p>
+				
+		<h4><strong>Functions Tips</strong></h4>
+		
+		<p>If you find the Column Shortcodes too difficult or boring to use, here's a tip for you: create a custom Sidebar in the Daydream
+		Options Panel (<em>Appearance &rarr; Daydream &rarr; Sidebars</em>), build your columns using the Columns Widget, then call your sidebar in your page using the Sidebar <a href="#sidebarShortcode">Shortcode</a>.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="technicalDetails" class="center"><small>7.</small> Technical Details</h1>
+		
+		<p>Here's some informations that may help if you want to customize the theme even more.</p>
+				
+		<h4><strong>Colours Folder</strong></h4>
+		
+		<p>Every colour theme is located inside the <em>daydream/colours/</em> folder. A colour consists in a folder containing a stylesheet
+		named "theme.css" and the related images.</p>
+		
+		<h4><strong>Theme Translation</strong></h4>
+		
+		<p>Daydream is translation-ready. That means that <a href="http://bit.ly/roo979" target="_blank">editing</a> the ".po" files included inside the <em>daydream/languages/</em> folder you can translate the theme in any other language.</p>
+		
+		<p>When editing a language, do not remove strings like "<code>%s</code>" or "<code>%1$</code>". These are strings that get automatically
+		replaced with dynamic or more complex content.</p>
+		
+		<hr class="spacer" />
+		
+		<h1 id="endingCredits" class="center"><small>8.</small> Ending Credits</h1>
+		
+		<p>To build this theme, I've used some external sources from great people kind enough to share their work.</p>
+		
+		<h4><strong>Graphics</strong></h4>
+		
+		<ul>
+			<li><a href="http://iconsweets2.com/">iconSweets 2</a> by Yummygun</li>
+			<li><a href="http://lifetreecreative.com/icons/">Vector &amp; Custom Shape Media Icons</a> by Gedy Rivera</li>
+			<li><a href="http://subtlepatterns.com/">Subtle Patterns</a>, a project by Atle Mo</li>
+			<li><a href="http://www.ajaxload.info/">Ajaxload</a></li>
+			<li><a href="http://www.loadinfo.net/">Load Info</a></li>
+		</ul>
+		
+		<h4><strong>Javascript</strong></h4>
+		
+		<ul>
+			<li><a href="http://jquery.com/">jQuery</a>, a project by John Resig</li>
+			<li><a href="http://code.drewwilson.com/entry/tiptip-jquery-plugin">TipTip</a> by Drew Wilson</li>
+			<li><a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">hoverIntent</a> by Brian Cherne</li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a> by George McGinley Smith</li>
+			<li>imagesLoaded by Paul Irish</li>
+			<li><a href="https://github.com/danielstocks/jQuery-Placeholder">Placeholder</a> by Daniel Stocks</li>
+			<li><a href="https://fancybox.net">FancyBox</a> by Janis Skarnelis</li>
+			<li><a href="http://remysharp.com/2008/09/10/the-silky-smooth-marquee/">marquee</a> by Remy Sharp</li>
+			<li>Hightlight by Johann Burkard</li>
+			<li><a href="http://www.zurb.com/playground/orbit-jquery-image-slider">Orbit</a> by ZURB</li>
+			<li><a href="http://videojs.com">VideoJS</a> by Zencoder Inc.</li>
+			<li><a href="http://nivo.dev7studios.com/">Nivo Slider</a> by Dev7studios</li>
+			<li><a href="http://jquery.malsup.com/cycle/">jQuery Cycle</a> by Malsup</li>
+			<li><a href="http://selectivizr.com/">Selectivizr</a> by Keith Clark</li>
+		</ul>
+		
+		<h4><strong>Misc</strong></h4>
+		
+		<ul>
+			<li><a href="http://css3pie.com/">CSS3 PIE</a> by Sencha Pie</li>
+			<li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>, a project by Paul Irish</li>
+		</ul>
+		
+		<hr class="spacer" />
+		
+		<h1 class="center desc"><em>Fin</em></h1>
+		
+		<p class="center desc"><em>Once again, <strong>thank you</strong> for buying my theme. If you have any questions that this file couldn't answer,
+		don't hesitate to open a new help request on my dedicated <a href="http://help.winterbits.com">Help Center</a>.</em></p>
+		
+		<h3 class="center desc"><em>Stefano Giliberti</em></h3>
+		
+	</div>
+	<!-- end: Main container -->
+	  
+</body>
+
+</html>

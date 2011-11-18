@@ -1,0 +1,1 @@
+<?php header('Content-type: text/x-component'); require('PIE.htc'); ?>

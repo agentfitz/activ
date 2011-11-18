@@ -1,0 +1,792 @@
+/**
+
+	Daydream Theme
+	Colour: Rusted
+
+**/
+
+/*------------------------------------
+
+	Contents summary:
+	
+	0. Document properties
+	1. Structure setup
+	2. Default button
+	3. Utilities (Bubbles, Tabs, Testimonials, Accordion etc.)
+	4. Columns
+	5. Content styles
+
+------------------------------------*/
+
+
+/*----------------------------------------------------------------------------
+	0. DOCUMENT MAIN PROPERTIES
+----------------------------------------------------------------------------*/
+
+body {
+	color: #777777;
+}
+
+/*
+	Links
+*/
+a, a:active, a:visited {
+	color: #5f646a;
+}
+
+a:hover {
+	color: #3a3d41;
+}
+
+/*
+	Headings
+*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h1 {
+	color: #666;
+}
+
+h2 {
+	color: #5e5e5e;
+}
+
+h3 {
+	color: #616161;
+}
+
+h4 {
+	color: #666;
+}
+
+h5, h6 {
+	font-weight: 600;
+}
+
+h5 {
+	color: #848484;
+}
+
+h6 {
+	color: #898989;
+}
+
+
+/*----------------------------------------------------------------------------
+	1. STRUCTURE SETUP
+----------------------------------------------------------------------------*/
+
+/*
+	Top bar
+*/
+body > header {
+	background: url(top.png) repeat-x;
+}
+	
+	/*
+		Logo
+	*/
+	body > header .logo a {
+		color: #fff;
+		font-weight: 600;
+		text-shadow: 0 -1px 1px #181c21;
+	}
+	
+	/*
+		Menu
+	*/
+	body > header .nav {
+		background: url(border.png) left no-repeat;
+		padding-left: 1px;
+	}
+	
+		body > header .nav li:hover {
+			background: url(top_hover.png) repeat;
+		}
+	
+			body > header .nav li a {
+				background: url(border.png) right no-repeat;
+				text-decoration: none;
+				font-weight: bold;
+				color: #fff;
+				text-shadow: 0 -1px 1px #181c21;
+			}
+				
+				body > header .nav li a span {
+					background: url(drop-icon.png) no-repeat;
+				}
+	
+			body > header .nav > li.current-menu-item,
+			body > header .nav > li.current-menu-ancestor,
+			body > header .nav > li.current-page-ancestor,
+			body > header .nav > li.current_page_parent {
+				background: url(top_active.png) repeat;
+				text-shadow: 0 1px 1px #181c21;
+			}
+		
+		/*
+			Dropdown menu
+		*/
+		body > header .nav li ul {
+			background: #fff;
+		}
+		
+			body > header .nav li li:hover {
+				background: none;
+			}
+		
+				body > header .nav li li a {
+					background: none;
+					color: #636363;
+					font-weight: normal;
+					text-shadow: none;
+					border-bottom: 1px solid #e8e8e8;
+				}
+		
+				body > header .nav li li:last-child > a {
+					border: none;
+				}
+		
+				body > header .nav li li a:active {
+					-webkit-box-shadow: none;
+					-moz-box-shadow: none;
+					box-shadow: none;
+				}
+		
+				body > header .nav li li a:hover {
+					color: #262626;
+				}
+		
+				body > header .nav li.current-menu-item li a {
+					background: none;
+					text-shadow: none;
+				}
+
+/*
+	Slider, Page headings container
+*/
+#hero {
+	background: url(../../images/patterns/pattern_01.png) repeat;
+	color: #777;
+}
+	
+	/*
+		Page heading
+	*/
+	#hero .container > h1 {
+		color: #b3b3b3;
+	}
+	
+	/*
+		Page description
+	*/
+	#hero .container > span {
+		color: #919191;
+	}
+	
+	/*
+		Slider
+	*/
+	#hero_slider h1 {
+		color: #525252;
+	}
+	
+	/*
+		Sliders pagination (jCycle, Nivo Slider, Orbit)
+	*/
+	#hero_slider_nav a,
+	.dayd_nivoslider .nivo-controlNav a,
+	#hero .orbit-bullets li {
+		background: url(../../images/structure/pag.png) no-repeat;
+	}
+	
+	#hero_slider_nav a:hover,
+	.dayd_nivoslider .nivo-controlNav a:hover,
+	#hero .orbit-bullets li:hover {
+		background: url(../../images/structure/pag_hover.png) no-repeat;
+	}
+	
+	#hero_slider_nav a.activeSlide,
+	.dayd_nivoslider .nivo-controlNav a.active,
+	#hero .orbit-bullets li.active {
+		background: url(pag_active.png) no-repeat;
+	}
+
+/*
+	Tools
+*/
+#tools {
+	background: url(../../images/patterns/pattern_02.png) repeat;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #bebebe;
+}
+
+/*
+	Screenshots
+*/
+.shots li {
+	background: url(../../images/structure/gradient_light.png) bottom repeat-x #ffffff;
+}
+
+.shots li:hover {
+	background: url(../../images/structure/gradient_dark.png) bottom repeat-x #f6f6f6;
+}
+
+.shots li:active {
+	background: url(../../images/structure/gradient_darker.png) bottom repeat-x #f0f0f0;
+}
+
+	.shots li h3 {
+		color: #525252;
+	}
+		
+/*
+	Widgets area
+*/
+#dock-area {
+	background: url(../../images/patterns/pattern_03.png) repeat;
+	border-top: 1px solid #dadada;
+	color: #7f7f7f;
+	text-shadow: 0 1px 1px #fff;
+}
+	
+	#dock-area h4 {
+		font-weight: 600;
+		color: #777777;
+	}
+	
+	/*
+		Recent posts widget
+	*/
+	#dock-area .wb_dayd_latests_widget ul li {
+		border-bottom: 1px solid #d7d7d7;
+		border-top: 1px solid #fff;
+	}
+		
+		#dock-area .wb_dayd_latests_widget ul li img {
+			border-color: #fff;
+		}
+	
+		#dock-area .wb_dayd_latests_widget ul li:hover h5 a {
+			color: #6a6a6a;
+		}
+	
+	/*
+		Twitter widget
+	*/
+	#dock-area .wb_dayd_twitter_widget ul li {
+		background: #f1f1f1;
+		border: 3px solid #e8e8e8;
+	}
+	
+	#dock-area .wb_dayd_twitter_widget ul li time {
+		font-size: 11px;
+		color: #b0b0b0;
+	}
+	
+	#dock-area .wb_dayd_twitter_widget ul li:hover {
+		color: #31a7d7;
+		background: #effaff;
+		border-color: #d9f4ff;
+	}
+	
+	#dock-area .wb_dayd_twitter_widget ul li:hover time {
+		color: #8aa7b5;
+	}
+	
+	/*
+		Contact form widget
+	*/
+	#dock-area .wb_dayd_cform_widget form input[type="submit"] {
+		color: #fff;
+		background: #c1c1c1;
+		border: 3px solid #b3b3b3;
+	}
+	
+	#dock-area .wb_dayd_cform_widget form input[type="submit"]:hover {
+		background: #b9b9b9;
+		border-color: #a6a6a6;
+	}
+	
+	#dock-area .wb_dayd_cform_widget form input[type="submit"]:active {
+		background: #aeaeae;
+		border-color: #9b9b9b;
+	}
+	
+	#dock-area .wb_dayd_cform_widget form input[type="text"],
+	#dock-area .wb_dayd_cform_widget form textarea {
+		border-color: #e8e8e8;
+		color: #6a6a6a;
+	}
+	
+	#dock-area .wb_dayd_cform_widget form input[type="text"]:hover,
+	#dock-area .wb_dayd_cform_widget form textarea:hover,
+	#dock-area .wb_dayd_cform_widget form input[type="text"]:focus,
+	#dock-area .wb_dayd_cform_widget form textarea:focus {
+		border-color: #cfcfcf;
+	}
+	
+	#dock-area .wb_dayd_cform_widget form input[type="text"]:focus,
+	#dock-area .wb_dayd_cform_widget form textarea:focus {
+		-webkit-box-shadow: 0 0 5px #aae2ff;
+		-moz-box-shadow: 0 0 5px #aae2ff;
+		box-shadow: 0 0 5px #aae2ff;
+	}
+	
+/*
+	Copyrights
+*/
+body > footer {
+	background: url(../../images/patterns/pattern_03.png) repeat;
+	color: #989898;
+	border-color: #dadada;
+	text-shadow: 0 1px 1px #fff;
+}
+
+	body > footer .container a {
+		color: #797979;
+	}
+	
+	body > footer .container a:hover {
+		color: #525252;
+	}
+	
+	body > footer .container .dayd_social {
+		color: #9e9e9e;
+	}
+	
+	body > footer .container .dayd_social:hover {
+		color: #9b9b9b;
+	}
+
+/*
+	Side column
+*/
+#content > aside h4 {
+	border-color: #e0e0e0;
+}
+
+/*
+	Sub menu
+*/
+#dayd_submenu li a {
+	border-color: #ddd;
+	color: #6f6f6f;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#dayd_submenu li:first-child a {
+	border-color: #ddd;
+}
+
+#dayd_submenu li a:hover {
+	color: #303030;
+	background: #f9f9f9;
+}
+
+#dayd_submenu li.current_page_item > a  {
+	color: #fff;
+	background: url(gradient.png) bottom repeat-x;
+	border-color: #383d43;
+	text-shadow: 0 -1px 1px #181c21;
+}
+	
+	#dayd_submenu li.current_page_item span {
+		background: url(arrow.png) no-repeat;
+	}
+	
+aside.right #dayd_submenu li.current_page_item span {
+	background: url(arrow_left.png) no-repeat;
+}
+
+/*
+	Sidebar search widget
+*/
+#content > aside .dayd_search {
+	background: url(../../images/patterns/pattern_02.png) repeat;
+	border-color: #c2c2c2;
+}
+	
+	.dayd_search_input input[type='text'] {
+		border-color: #ccc;
+		color: #5e5e5e;
+	}
+
+/*
+	Aside recents posts widget
+*/
+#content > aside .wb_dayd_latests_widget ul li h5 a {
+	color: #777777;
+}
+
+#content > aside .wb_dayd_latests_widget ul li:hover h5 a {
+	color: #595959;
+}
+
+#content > aside .wb_dayd_latests_widget ul li small {
+	color: #9e9e9e;
+}
+
+#content > aside .wb_dayd_latests_widget ul li img {
+	border-color: #eee;
+}
+
+#content > aside .wb_dayd_latests_widget ul li a {
+	color: #9e9e9e;
+}
+
+/*
+	Aside lists widget
+*/
+.wb_dayd_list_widget ul li a {
+	border-color: #ebebeb;
+}
+
+.wb_dayd_list_widget ul li a:hover {
+	color: #717171;
+	background: #f9f9f9;
+}
+
+.wb_dayd_list_widget ul li a span {
+	background: #f1f1f1;
+	color: #c1c1c1;
+}
+
+.wb_dayd_list_widget ul li a:hover span {
+	color: #9e9e9e;
+	background: #fff;
+}
+
+/*
+	Recent comments widget
+*/
+.wb_dayd_comments_widget ul li {
+	border-color: #ebebeb;
+}
+
+	.wb_dayd_comments_widget ul li a {
+		color: #797979;
+	}
+	
+	.wb_dayd_comments_widget ul li a:hover {
+		background: #f9f9f9;
+	}
+
+/*
+	Showcase tags list
+*/
+#showcase_tools #dayd_taglist li {
+	background-color: #c1c1c1;
+	color: #fff;
+}
+
+#showcase_tools #dayd_taglist li:hover {
+	background-color: #aeaeae;
+}
+
+#showcase_tools #dayd_taglist li:active,
+#showcase_tools #dayd_taglist li.current:active {
+	background-color: #969696;
+}
+
+#showcase_tools #dayd_taglist li.current {
+	background-color: #a6a6a6;
+}
+
+/*
+	Showcase
+*/
+.dayd_showcase .showcase_item > a {
+	outline-color: #fff;
+}
+
+.dayd_showcase .showcase_item.picture_item > a span {
+	background-color: #fff;
+}
+
+.dayd_showcase .showcase_item.media_item > a span {
+	background-color: #fff;
+}
+
+#dayd_pagination_next a,
+#dayd_pagination_prev a {
+	color: #a8a8a8;
+}
+
+/*
+	Showcase slideshow
+*/
+.dayd_showcase_slideshow .orbit-wrapper {
+	outline-color: #fff;
+}
+	
+	.dayd_showcase_slideshow .orbit-wrapper .orbit-bullets li.has-thumb {
+	    border-color: #cccccc;
+	}
+
+/*
+	Blog
+*/
+.dayd_post > div footer {
+	border-color: #e0e0e0;
+}
+
+.dayd_post > div .post_title a:hover {
+	color: #474747;
+}
+
+.dayd_post > div footer .post_cat {
+	color: #c6c6c6;
+}
+	
+	.dayd_post > div footer .post_cat a:hover {
+		color: #ababab;
+	}
+
+/*
+	Post comments
+*/
+#dayd_post_comments #comments-title {
+	border-color: #e0e0e0;
+}
+	
+	#dayd_post_comments .commentlist .comment .comment-content {
+		color: #747474;
+		background: #fff;
+		border-color: #e1e1e1;
+	}
+		
+		#dayd_post_comments .commentlist .comment .comment-content .dayd_comment_arrow {
+			background: url(../../images/structure/comment_arrow_1.png) no-repeat;
+		}
+	
+	/*
+		Comment replies
+	*/
+	#dayd_post_comments .commentlist .children .comment .comment-content {
+		border-color: #e8e8e8;
+	}
+	
+		#dayd_post_comments .commentlist .children .comment .comment-content .dayd_comment_arrow {
+			background: url(../../images/structure/comment_arrow_2.png) no-repeat;
+		}
+	
+	/*
+		Comment form
+	*/
+	#dayd_post_comments #respond #reply-title {
+		border-color: #e0e0e0;
+	}
+	
+	#dayd_post_comments #respond form p label {
+		color: #919191;
+	}
+	
+/*----------------------------------------------------------------------------
+	2. DEFAULT THEME BUTTON
+----------------------------------------------------------------------------*/
+
+/*
+	Aluminium button
+*/
+.dayd_button {
+	background: url(../../images/structure/button_right.png) right -204px no-repeat;
+	text-shadow: 0 1px 1px #fff;
+}
+	
+	.dayd_button span {
+		background: url(../../images/structure/button.png) left -204px no-repeat;
+		color: #777;
+	}
+	
+.dayd_button:hover {
+	background: url(../../images/structure/button_right.png) right -581px no-repeat;
+}
+
+	.dayd_button:hover span {
+		background: url(../../images/structure/button.png) left -581px no-repeat;
+	}
+
+.dayd_button:active {
+	background: url(../../images/structure/button_right.png) right -958px no-repeat;
+	text-shadow: 0 1px 2px #fff;
+}
+
+	.dayd_button:active span {
+		background: url(../../images/structure/button.png) left -958px no-repeat;
+	}
+	
+
+/*----------------------------------------------------------------------------
+	3. UTILITIES
+----------------------------------------------------------------------------*/
+
+/*
+	Testimonials slider
+*/
+.testimonials_slider .slide > div img {
+	border-color: #fff;
+}
+
+	.testimonials_slider .slide > div > div {
+		background: #fff;
+		border-color: #e1e1e1;
+	}
+		
+		/*
+			Bubble
+		*/
+		.testimonials_slider .slide > div > div p span {
+			color: #777777;
+		}
+
+.testimonials_slider .slide .arrow {
+	background: url(../../images/structure/bubble_arrow.png) no-repeat;
+}
+
+.testimonials_slider .slide > div p {
+	color: #848484;
+}
+
+/*
+	Tabs
+*/
+.dayd_tabs {
+	border-color: #d7d7d7;
+}
+
+	.dayd_tabs nav {
+		border-bottom-color: #d7d7d7;
+		background: #f6f6f6;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4');
+		background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f4f4f4));
+		background: -moz-linear-gradient(top,  #ffffff,  #f4f4f4);
+		background: -o-linear-gradient(#ffffff,#f4f4f4);
+		background: -ms-linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+		background: linear-gradient(top, #ffffff 0%,#f4f4f4 100%);
+	}
+	
+	.dayd_tabs nav a {
+		color: #919191;
+	}
+	
+	.dayd_tabs nav a:hover {
+		color: #5c5c5c;
+	}
+	
+	.dayd_tabs nav .current {
+		background: #fff;
+		border-right-color: #d7d7d7;
+		border-left-color: #d7d7d7;
+	}
+	
+	.dayd_tabs nav .current,
+	.dayd_tabs nav .current:hover {
+		color: #848484;
+	}
+
+/*
+	Togglers
+*/
+.dayd_toggle {
+	background: #f9f9f9;
+	border-color: #d5d5d5;
+}
+	
+	.dayd_toggle > span {
+		background: url(../../images/structure/toggle_open.png) 7px center no-repeat;
+		color: #969696;
+		text-shadow: 0 2px 1px #fff;
+	}
+	
+	.dayd_toggle > span.open {
+		background: url(../../images/structure/toggle_close.png) 7px center no-repeat #f6f6f6;
+	}
+	
+	.dayd_toggle > .content {
+		border-top-color: #d5d5d5;
+		background: #fff;
+	}
+
+
+/*----------------------------------------------------------------------------
+	5. CONTENT STYLES
+----------------------------------------------------------------------------*/
+
+/*
+	Promo text
+*/
+.promo {
+	background: url(../../images/structure/lines.png) bottom repeat-x;
+	color: #616161;
+}
+
+/*
+	Dropcaps
+*/
+.dayd_dcap {
+	background: url(../../images/structure/dropcap.png) no-repeat;
+}
+
+/*
+	Images w/ captions
+*/
+.wp-caption {
+	background: url(../../images/patterns/pattern_02.png) repeat;
+	border-color: #c5c5c5;
+}
+
+	.wp-caption img {
+		border-color: #c5c5c5;
+	}
+
+/*
+	Blockquotes
+*/
+blockquote {
+	background: url(../../images/structure/quote.png) left top no-repeat;
+	color: #898989;
+}
+
+/*
+	Tables
+*/
+table {
+	border-color: #d5d5d5;
+}
+
+	table thead th {
+		border-color: #d5d5d5;
+		text-shadow: 0 2px 1px #fff;
+		background: #fafafa;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f3f3f3');
+		background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3));
+		background: -moz-linear-gradient(top,  #ffffff,  #f3f3f3);
+		background: -o-linear-gradient(#ffffff,#f3f3f3);
+		background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 100%);
+		background: linear-gradient(top, #ffffff 0%,#f3f3f3 100%);
+	}
+	
+	table tbody td {
+		border-bottom-color: #d5d5d5;
+		border-right-color: #d5d5d5;
+		text-shadow: 0 2px 1px #fff;
+	}
+	
+	table tbody tr:hover {
+		background: #f9f9f9;
+	}
+
+
+/*----------------------------------------------------------------------------
+	7. FORMS
+----------------------------------------------------------------------------*/
+
+input[type="text"],
+input[type="password"],
+textarea {
+	border-color: #d1d1d1;
+	color: #393939;
+}

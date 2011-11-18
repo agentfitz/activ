@@ -1,0 +1,2045 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stefano Giliberti <winterbits@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:156
+#: daydream/content-single.php:24
+#: daydream/loop.php:24
+msgid "% Comments"
+msgstr "% Commenti"
+
+#. Text in function
+#: daydream/haku/functions.php:1
+msgid "%s ago"
+msgstr "%s fa"
+
+#. Text in function
+#: daydream/includes/widget/columns.php:147
+msgid "%s pixels tall"
+msgstr "di %s pixel"
+
+#. Text in function
+#: daydream/haku/panel/actions.php:541
+msgid "%s&rsquo;s Sidebar"
+msgstr "Sidebar di %s"
+
+#. Text in function
+#: daydream/functions.php:659
+msgid "(Edit)"
+msgstr "(Modifica)"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "(Homepage) After Content"
+msgstr "(Pagina Iniziale) Dopo il Contenuto"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "(Homepage) Before Content"
+msgstr "(Pagina Iniziale) Prima del Contenuto"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "(Homepage) Tools Area"
+msgstr "(Pagina Iniziale) Area Strumenti"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:156
+#: daydream/content-single.php:24
+#: daydream/loop.php:24
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:27
+msgid "2 Columns"
+msgstr "2 Colonne"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:28
+msgid "3 Columns"
+msgstr "3 Colonne"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:29
+msgid "4 Columns"
+msgstr "4 Colonne"
+
+#. Text in function
+#: daydream/haku/update.php:108
+msgid "A new version of %s has just become available!"
+msgstr "Una nuova versione di %s è appena diventata disponibile!"
+
+#. Text in function
+#: daydream/includes/widget/text.php:1
+msgid "A shortcode enabled text widget."
+msgstr "Un widget abilitato per gli shortcode."
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Add New Filter"
+msgstr "Aggiungi Nuovo Filtro"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Add New Item"
+msgstr "Aggiungi Nuovo Elemento"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2272
+msgid "Add New Sidebar"
+msgstr "Aggiungi Nuova Sidebar"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2257
+msgid "Add New Slide"
+msgstr "Aggiungi Nuova Slide"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Add or remove filters"
+msgstr "Aggiungi o rimuovi filtri"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1170
+msgid "Advance Speed"
+msgstr "Velocità di avanzamento"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:325
+#: daydream/haku/panel/options.php:740
+#: daydream/haku/panel/options.php:1818
+msgid "After changing this value you must rebuild the WordPress Thumbnails using an external WordPress plugin."
+msgstr "Dopo aver modificato questo valore dovrai rigenerare i Thumbnail di WordPress utilizzando un plugin esterno."
+
+#. Text in echo
+#: daydream/showcase.php:94
+msgid "All"
+msgstr "Tutti"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:299
+msgid "Analytics"
+msgstr "Analytics"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:821
+msgid "Animation Easing"
+msgstr "Stile Animazione"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:332
+msgid "Appearance"
+msgstr "Aspetto"
+
+#. Text in echo
+#: daydream/hero.php:92
+#: daydream/includes/widget/archives.php:1
+msgid "Archives"
+msgstr "Archivi"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:22
+msgid "Are you sure you want to reset?"
+msgstr "Sei sicuro di voler azzerare?"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:500
+#: daydream/includes/widget/comments.php:96
+#: daydream/includes/widget/latests.php:105
+#: daydream/includes/widget/categories.php:95
+msgid "Ascending"
+msgstr "Ascendente"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Ask anything!"
+msgstr "Chiedi!"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1833
+msgid "Author and Date"
+msgstr "Autore e Data"
+
+#. Text in function
+#: daydream/includes/widget/text.php:73
+msgid "Automatically add Paragraphs %s and Line breaks %s"
+msgstr "Aggiungi automaticamente Paragrafi %s e Interruzioni di Linea %s"
+
+#. Text in echo
+#: daydream/haku/update.php:106
+msgid "Available"
+msgstr "Disponibile"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1408
+msgid "Background"
+msgstr "Sfondo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1517
+msgid "Background Colour"
+msgstr "Colore Sfondo"
+
+#. Text in function
+#: daydream/comments.php:64
+msgid "Be nice!"
+msgstr "Sii gentile!"
+
+#. Text in echo
+#: daydream/footer.php:82
+msgid "Become a fan on"
+msgstr "Diventa un fan su"
+
+#. Text in function
+#: daydream/haku/update.php:117
+msgid "Before updating, I recommend you to perform a quick backup of your current version of %s (%s). There&rsquo;s no risk that something might corrupt your database, but you might lose any eventual change you made on the theme itself."
+msgstr "Prima di aggiornare, è sempre utile fare un backup veloce della versione corrente di %s (%s). Non ci sono rischi di perdite nel tuo database, ma potresti perdere ogni eventuale cambiamento che hai effettuato sul tema."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1793
+msgid "Blog Posts"
+msgstr "Articoli Blog"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1481
+msgid "Body"
+msgstr "Corpo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1297
+msgid "Body Font"
+msgstr "Carattere Corpo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:943
+msgid "Box Columns"
+msgstr "Colonne Riquadri"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:971
+msgid "Box Rows"
+msgstr "Righe Riquadri"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Browse"
+msgstr "Sfoglia"
+
+#. Text in echo
+#: daydream/content-single.php:14
+#: daydream/loop.php:14
+msgid "By"
+msgstr "Da"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1751
+msgid "By default, the Logo is positioned on the left side and the Navigation Menu on the opposite side."
+msgstr "Di default, il Logo è posizionato sul lato sinistro e il Menu di Navigazione sul lato opposto."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2200
+msgid "By default, the jQuery Library is loaded from the Google Servers to improve the overall loading performances."
+msgstr "Di default, la Libreria jQuery viene caricata dai server di Google per migliorare le prestazioni generali di caricamento."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1664
+msgid "CSS Code"
+msgstr "Codice CSS"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:116
+msgid "Caption:"
+msgstr "Didascalia:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1114
+msgid "Captions Effect"
+msgstr "Effetto Didascalie"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1027
+msgid "Captions Opacity"
+msgstr "Opacità Didascalie"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1142
+msgid "Captions Speed"
+msgstr "Velocità Didascalie"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:135
+msgid "Captions effect:"
+msgstr "Effetto Didascalie:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:163
+msgid "Captions speed:"
+msgstr "Velocità Didascalie:"
+
+#. Text in function
+#: daydream/includes/widget/categories.php:1
+msgid "Categories"
+msgstr "Categorie"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1893
+msgid "Category"
+msgstr "Categoria"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:138
+msgid "Central Item"
+msgstr "Elemento Centrale"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2218
+msgid "Check for updates"
+msgstr "Controlla Aggiornamenti"
+
+#. Text in function
+#: daydream/haku/panel/options.php:2233
+msgid "Check this if you want to be notified when a new update for %s is available."
+msgstr "Abilita se vuoi essere notificato quando un nuovo aggiornamento per %s è disponibile."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1365
+msgid "Check this if you want to customize the Menu Bar."
+msgstr "Abilita se vuoi personalizzare la Barra di Navigazione."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:206
+msgid "Check this if you want to display the chosen strings in all sections."
+msgstr "Abilita se vuoi mostrare le stringhe selezionate in tutte le sezioni."
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:132
+msgid "Check this if you want to show an Icon on the left side of every column."
+msgstr "Abilita se vuoi mostrare un Icona sul lato sinistro di ogni colonna."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1784
+msgid "Check this to disable all Submenus (Parents menu)."
+msgstr "Abilita per disattivare tutti Submenu (Menu Parenti)."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2061
+msgid "Check this to enable comments and trackbacks on pages."
+msgstr "Abilita per attivare commenti e trackback sulle pagine."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:647
+msgid "Check this to replace the Slider with custom content."
+msgstr "Abilita per sostituire lo Slider con un contenuto personalizzato."
+
+#. Text in function
+#: daydream/haku/panel/options.php:1968
+#: daydream/haku/panel/options.php:1998
+msgid "Check this to show the %s share button."
+msgstr "Abilita per mostrare il bottone di condivisione per %s"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1848
+msgid "Check this to show the post author and date."
+msgstr "Abilita per mostrare l'autore dei post e la data."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1908
+msgid "Check this to show the post category."
+msgstr "Abilita per mostrare la categoria dei post."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1878
+msgid "Check this to show the post comments count."
+msgstr "Abilita per mostrare il numero dei commenti dei post."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1938
+msgid "Check this to show the post tags."
+msgstr "Abilita per mostrare le tag dei post."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2028
+msgid "Check this to show trackbacks inside the comments section."
+msgstr "Abilita per mostrare i trackback nella sezione commenti."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:71
+#: daydream/haku/panel/actions.php:256
+msgid "Check this to use a plain text logo rather than an image."
+msgstr "Abilita se vuoi utilizzare un logo testuale invece di un'immagine."
+
+#. Text in function
+#: daydream/haku/panel/options.php:1282
+msgid "Choose a %sGoogle Web Font%s to apply on the Headings."
+msgstr "Scegli un %sGoogle Web Font%s da applicare sulle Intestazioni."
+
+#. Text in function
+#: daydream/haku/panel/options.php:2094
+#: daydream/includes/widget/testimonials.php:67
+msgid "Choose a category"
+msgstr "Scegli una categoria"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:605
+msgid "Choose a custom pattern image, then click \"Insert into post\" to apply it."
+msgstr "Scegli un motivo personalizzato, quindi clicca \"Inserisci nell'articolo\" per applicarla."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1332
+msgid "Choose a font to use on normal text."
+msgstr "Scegli un font da utilizzare sul testo normale."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1444
+msgid "Choose a plain colour to apply on the Menu Bar."
+msgstr "Scegli un colore da applicare sulla Barra di Navigazione."
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:24
+msgid "Choose an option"
+msgstr "Scegli un opzione"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Choose from the most used filters"
+msgstr "Scegli dai filtri più usati"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:709
+msgid "Choose your favorite Homepage Slider."
+msgstr "Scegli il tuo Slider preferito per la Pagina Iniziale."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1420
+#: daydream/haku/panel/options.php:2131
+#: daydream/haku/panel/options.php:2161
+#: daydream/haku/panel/actions.php:133
+msgid "Choose your image, then click \"Insert into post\" to apply it."
+msgstr "Scegli la tua immagine, quindi clicca \"Inserisci nell'articolo\" per applicarla."
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:150
+#: daydream/includes/widget/columns.php:171
+#: daydream/includes/widget/columns.php:194
+#: daydream/includes/widget/columns.php:219
+#: daydream/includes/widget/columns.php:244
+msgid "Column"
+msgstr "Colonna"
+
+#. Text in function
+#: daydream/includes/widget/columns.php:1
+#: daydream/includes/widget/columns.php:147
+msgid "Columns"
+msgstr "Colonne"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:107
+msgid "Columns:"
+msgstr "Colonne:"
+
+#. Text in function
+#: daydream/comments.php:64
+msgid "Comment"
+msgstr "Commento"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2046
+msgid "Comments"
+msgstr "Commenti"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1863
+msgid "Comments Count"
+msgstr "Numero Commenti"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Contact Form"
+msgstr "Modulo di Contatto"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:662
+#: daydream/haku/panel/actions.php:157
+msgid "Content"
+msgstr "Contenuto"
+
+#. Text in echo
+#: daydream/haku/panel/actions.php:186
+msgid "Content Layout"
+msgstr "Layout Contenuto"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:45
+msgid "Content type:"
+msgstr "Tipo Contenuto:"
+
+#. Text in function
+#: daydream/content-single.php:52
+#: daydream/loop.php:43
+msgid "Continue reading"
+msgstr "Continua a leggere"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:34
+msgid "Control Panel"
+msgstr "Pannello di Controllo"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:172
+msgid "Custom Link"
+msgstr "Link Personalizzato"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2266
+msgid "Custom Sidebars"
+msgstr "Sidebar Personalizzate"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1350
+msgid "Customize Menu Bar"
+msgstr "Personalizza Barra di Navigazione"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:464
+#: daydream/includes/widget/latests.php:95
+msgid "Date"
+msgstr "Data"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:780
+msgid "Daydream Slider"
+msgstr "Daydream Slider"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:134
+msgid "Default Headlines"
+msgstr "Titoli Default"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:499
+#: daydream/includes/widget/comments.php:97
+#: daydream/includes/widget/latests.php:106
+#: daydream/includes/widget/categories.php:96
+msgid "Descending"
+msgstr "Discendente"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:114
+#: daydream/includes/widget/screenshots.php:154
+#: daydream/includes/widget/screenshots.php:194
+msgid "Description:"
+msgstr "Descrizione:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1655
+msgid "Direct Styling"
+msgstr "Stile Diretto"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:352
+msgid "Disable Filtering, Search and Instant Pagination."
+msgstr "Disabilita Filtraggio, Cerca e Paginazione Istantanea."
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:422
+msgid "Disable Search"
+msgstr "Disabilita Cerca"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1769
+msgid "Disable Submenu"
+msgstr "Disabilita Submenu"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:242
+msgid "Disable Thumbnails"
+msgstr "Disabilita Thumbnail"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:187
+msgid "Disable Timer"
+msgstr "Disabilita Timer"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:341
+msgid "Disable Tools"
+msgstr "Disabilita Strumenti"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:48
+msgid "Documentation"
+msgstr "Documentazione"
+
+#. Text in function
+#: daydream/functions.php:699
+#: daydream/content-single.php:38
+#: daydream/loop.php:29
+msgid "Edit"
+msgstr "Modifica"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Edit Filter"
+msgstr "Modifica Filtro"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Edit Item"
+msgstr "Modifica Elemento"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:178
+#: daydream/comments.php:64
+msgid "Email"
+msgstr "Indirizzo Email"
+
+#. Text in echo
+#: daydream/includes/widget/contact-form.php:136
+msgid "Emails subject:"
+msgstr "Soggetto Email:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2085
+msgid "Exclude"
+msgstr "Escludi"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2076
+msgid "Exclude Categories"
+msgstr "Escludi Categorie"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2073
+#: daydream/includes/widget/testimonials.php:75
+msgid "Extras"
+msgstr "Extra"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:278
+msgid "Facebook Link"
+msgstr "Indirizzo Facebook"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1953
+msgid "Facebook Sharing"
+msgstr "Condivisione Facebook"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:147
+#: daydream/haku/panel/options.php:799
+#: daydream/haku/panel/options.php:1068
+#: daydream/haku/panel/options.php:1124
+msgid "Fade"
+msgstr "Sfuma"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:110
+msgid "Favourites Icon"
+msgstr "Icona Preferiti"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1802
+msgid "Featured Images Height"
+msgstr "Altezza Immagini in evidenza"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Filter Tags"
+msgstr "Tag Filtri"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1631
+msgid "Filter Tags Colour"
+msgstr "Colore Tag Filtri"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:898
+msgid "Fold"
+msgstr "Piega"
+
+#. Text in echo
+#: daydream/footer.php:75
+msgid "Follow us on"
+msgstr "Seguici su"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1201
+msgid "Fonts"
+msgstr "Caratteri"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:215
+msgid "Footer Info"
+msgstr "Info Footer"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:191
+msgid "Force Both"
+msgstr "Forza Entrambe"
+
+#. Text in echo
+#: daydream/includes/widget/comments.php:88
+msgid "Full"
+msgstr "Pieno"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:13
+msgid "Gallery layout:"
+msgstr "Layout Galleria"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:140
+msgid "Gallery:"
+msgstr "Galleria:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:11
+msgid "General"
+msgstr "Generale"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:5
+msgid "General settings"
+msgstr "Impostazioni Generali"
+
+#. Text in function
+#: daydream/includes/widget/maps.php:1
+msgid "Google Maps"
+msgstr "Mappe Google"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2149
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: daydream/includes/widget/video.php:82
+msgid "HTML5 videos will automatically fallback to Flash if the browser does not support it."
+msgstr "I video HTML5 regrediranno automaticamente a Flash se il browser non li supporta."
+
+#. Text in function
+#: daydream/haku/update.php:108
+msgid "Head over %s, login into your account, switch to the \"Downloads\" section and re-download %s, just like you did the first time."
+msgstr "Vai su %s, accedi al tuo account, spostati nella sezione \"Downloads\" e ri-scarica %s, proprio come hai fatto la prima volta."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1733
+msgid "Header Layout"
+msgstr "Layout Testata"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:167
+msgid "Heading"
+msgstr "Intestazione"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1544
+msgid "Headings Colour"
+msgstr "Colore Intestazioni"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1210
+msgid "Headings Font"
+msgstr "Carattere Intestazioni"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1380
+msgid "Height"
+msgstr "Altezza"
+
+#. Text in echo
+#: daydream/includes/widget/video.php:92
+#: daydream/includes/widget/columns.php:118
+msgid "Height:"
+msgstr "Altezza:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:623
+msgid "Hero Content"
+msgstr "Contenuto Hero"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:393
+msgid "Hide Excerpts"
+msgstr "Nascondi Estratti"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:94
+msgid "Hide Sidebar"
+msgstr "Nascondi Sidebar"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:123
+msgid "Hide Submenu"
+msgstr "Nascondi Submenu"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:369
+msgid "Hide Titles"
+msgstr "Nascondi Titoli"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:68
+msgid "Hide Top Bar"
+msgstr "Nascondi Barra Superiore"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2251
+msgid "Homepage Slides"
+msgstr "Slide Pagina Iniziale"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:96
+#: daydream/haku/panel/options.php:1071
+msgid "Horizontal Push"
+msgstr "Sposta Orizzontalmente"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:94
+#: daydream/haku/panel/options.php:1069
+msgid "Horizontal Slide"
+msgstr "Muovi Orizzontalmente"
+
+#. Text in echo
+#: daydream/haku/update.php:120
+msgid "How to update?"
+msgstr "Come aggiornare?"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:101
+msgid "Hybrid"
+msgstr "Ibrido"
+
+#. Text in echo
+#: daydream/haku/update.php:125
+msgid "I still need help."
+msgstr "Ho ancora bisogno di aiuto."
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:138
+msgid "Icon Field"
+msgstr "Campo Icona"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:161
+#: daydream/includes/widget/columns.php:182
+#: daydream/includes/widget/columns.php:205
+#: daydream/includes/widget/columns.php:230
+#: daydream/includes/widget/columns.php:255
+msgid "Icon:"
+msgstr "Icona:"
+
+#. Text in function
+#: daydream/haku/update.php:126
+msgid "If you still need help, don&rsquo;t hesitate to contact me via the %s or through my ThemeForest.net %s Contact Form."
+msgstr "Se hai ancora bisogno di aiuto, non esitare a contattarmi attraverso il %s o attraverso il Modulo di Contatto sulla mia %s di ThemeForest.net."
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:56
+msgid "Image"
+msgstr "Immagine"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:724
+msgid "Images Height"
+msgstr "Altezza Immagini"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:296
+msgid "Images height:"
+msgstr "Altezza Immagini:"
+
+#. Text in echo
+#: daydream/content-single.php:62
+#: daydream/loop.php:53
+msgid "In"
+msgstr "In"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:40
+msgid "Invert Sidebar Position"
+msgstr "Inverti Posizione Sidebar"
+
+#. Text in function
+#: daydream/includes/metabox.php:1
+msgid "Item Attributes"
+msgstr "Attributi Elemento"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Items"
+msgstr "Elementi"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:488
+msgid "Items order:"
+msgstr "Ordine Elementi:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:270
+msgid "Items per page:"
+msgstr "Elementi per pagina:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2176
+msgid "Javascript"
+msgstr "Javascript"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:13
+msgid "Javascript is required."
+msgstr "E' necessario attivare Javascript per procedere."
+
+#. Text in echo
+#: daydream/includes/widget/search.php:65
+msgid "Label:"
+msgstr "Etichetta:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:468
+msgid "Last modified date"
+msgstr "Ultima modifica"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:1
+msgid "Latest Articles"
+msgstr "Ultimi Articoli"
+
+#. Text in function
+#: daydream/includes/widget/twitter.php:1
+msgid "Latest Tweets"
+msgstr "Ultimi Tweet"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1688
+msgid "Layout"
+msgstr "Layout"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:224
+msgid "Left Area"
+msgstr "Area Sinistra"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:98
+msgid "Left Item"
+msgstr "Elemento Sinistro"
+
+#. Text in echo
+#: daydream/includes/widget/comments.php:84
+msgid "Length:"
+msgstr "Lunghezza:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:5
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:37
+msgid "Lightbox Settings"
+msgstr "Impostazioni Lightbox"
+
+#. Text in echo
+#: daydream/includes/widget/archives.php:80
+#: daydream/includes/widget/categories.php:102
+msgid "Limit:"
+msgstr "Limite:"
+
+#. Text in function
+#: daydream/includes/widget/comments.php:137
+msgid "Link to %s"
+msgstr "Link a %s"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:180
+msgid "Link to:"
+msgstr "Link a:"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:120
+#: daydream/includes/widget/screenshots.php:160
+#: daydream/includes/widget/screenshots.php:200
+msgid "Link:"
+msgstr "Link:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1565
+msgid "Links"
+msgstr "Link"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2185
+msgid "Load jQuery Locally"
+msgstr "Carica jQuery In Locale"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:78
+msgid "Location:"
+msgstr "Posizione:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2119
+msgid "Login Logo"
+msgstr "Logo Accesso"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:17
+msgid "Logo"
+msgstr "Logo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:26
+msgid "Logo Image"
+msgstr "Immagine Logo"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Main Sidebar"
+msgstr "Sidebar Principale"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:335
+msgid "Main Theme"
+msgstr "Tema Principale"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:96
+msgid "Map type:"
+msgstr "Tipo Mappa:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2161
+msgid "Max size:"
+msgstr "Dimensione massima:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2131
+msgid "Max width:"
+msgstr "Larghezza massima:"
+
+#. Text in echo
+#: daydream/includes/widget/comments.php:87
+msgid "Medium"
+msgstr "Medio"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1341
+msgid "Menu Bar"
+msgstr "Barra di Navigazione"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:181
+msgid "Message"
+msgstr "Messaggio"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Message content:"
+msgstr "Contenuto Messaggio:"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Message from:"
+msgstr "Messaggio da:"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Most Used Filters"
+msgstr "Filtri più usati"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1601
+msgid "Mouseover Colour"
+msgstr "Colore Mouseover"
+
+#. Text in function
+#: daydream/includes/widget/video.php:1
+msgid "Moving Pictures!"
+msgstr "Immagini Animate!"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:175
+#: daydream/comments.php:64
+#: daydream/includes/widget/categories.php:85
+msgid "Name"
+msgstr "Nome"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "New Item"
+msgstr "Nuovo Elemento"
+
+#. Text in function
+#: daydream/comments.php:53
+msgid "Newer Comments"
+msgstr "Commenti Recenti"
+
+#. Text in function
+#: daydream/single.php:21
+#: daydream/index.php:21
+#: daydream/showcase.php:168
+#: daydream/showcase.php:180
+msgid "Newer entries"
+msgstr "Elementi recenti"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:878
+msgid "Nivo Slider"
+msgstr "Nivo Slider"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:156
+#: daydream/content-single.php:24
+#: daydream/loop.php:24
+msgid "No Comments"
+msgstr "Nessun Commento"
+
+#. Text in function
+#: daydream/includes/widget/twitter.php:124
+#: daydream/includes/shortcodes.php:1
+msgid "No tweets found from \"%s\""
+msgstr "Nessun tweet trovato da \"%s\""
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:148
+#: daydream/haku/panel/options.php:702
+#: daydream/haku/panel/options.php:1126
+msgid "None"
+msgstr "Nessuno"
+
+#. Text in echo
+#: daydream/not-found.php:1
+msgid "Not found"
+msgstr "Non trovato"
+
+#. Text in echo
+#: daydream/includes/widget/twitter.php:79
+#: daydream/includes/widget/comments.php:78
+#: daydream/includes/widget/latests.php:85
+msgid "Number:"
+msgstr "Numero:"
+
+#. Text in function
+#: daydream/comments.php:48
+msgid "Older Comments"
+msgstr "Commenti Precedenti"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2158
+#: daydream/haku/panel/actions.php:130
+msgid "Open Media Library"
+msgstr "Apri Libreria Media"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:123
+#: daydream/includes/widget/columns.php:132
+msgid "Optional."
+msgstr "Opzionale."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1049
+msgid "Orbit Slider"
+msgstr "Orbit Slider"
+
+#. Text in echo
+#: daydream/includes/widget/latests.php:91
+#: daydream/includes/widget/categories.php:82
+msgid "Order by:"
+msgstr "Ordina per:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:453
+msgid "Order items by:"
+msgstr "Ordina elementi per:"
+
+#. Text in echo
+#: daydream/includes/widget/comments.php:94
+#: daydream/includes/widget/latests.php:103
+#: daydream/includes/widget/categories.php:93
+msgid "Order:"
+msgstr "Ordine:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:445
+msgid "Ordering"
+msgstr "Ordine"
+
+#. Text in function
+#: daydream/includes/metabox.php:1
+msgid "Page Attributes"
+msgstr "Attributi Pagina"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:12
+msgid "Page Headline"
+msgstr "Intestazione Pagina"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2037
+msgid "Pages"
+msgstr "Pagine"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1700
+msgid "Pages Layout"
+msgstr "Layout Pagine"
+
+#. Text in function
+#: daydream/content-showcase.php:7
+#: daydream/loop-page.php:7
+msgid "Pages:"
+msgstr "Pagine:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:674
+#: daydream/haku/panel/actions.php:169
+msgid "Paragraphs are added automatically."
+msgstr "I paragrafi verranno aggiunti automaticamente."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:383
+msgid "Patterns"
+msgstr "Motivi"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:999
+msgid "Pause Time"
+msgstr "Pausa"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:216
+msgid "Pause on mouseover"
+msgstr "Ferma su mouseover"
+
+#. Text in function
+#: daydream/content-single.php:8
+#: daydream/loop.php:39
+msgid "Permalink to %s"
+msgstr "Link permanente a %s"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:155
+msgid "Permanent Link to %s"
+msgstr "Link Permanente a %s"
+
+#. Text in function
+#: daydream/content-single.php:48
+#: daydream/loop.php:8
+msgid "Permanent link to %s"
+msgstr "Link permanente a %s"
+
+#. Text in echo
+#: daydream/includes/widget/testimonials.php:65
+msgid "Pick from:"
+msgstr "Preleva da:"
+
+#. Text in echo
+#: daydream/haku/panel/actions.php:121
+msgid "Picture"
+msgstr "Immagine"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:102
+#: daydream/includes/widget/screenshots.php:142
+#: daydream/includes/widget/screenshots.php:182
+msgid "Picture:"
+msgstr "Immagine:"
+
+#. Text in echo
+#: daydream/functions.php:699
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:86
+msgid "Plain Logo Text"
+msgstr "Testo Logo"
+
+#. Text in echo
+#: daydream/includes/widget/latests.php:97
+msgid "Popular"
+msgstr "Popolari"
+
+#. Text in echo
+#: daydream/includes/widget/categories.php:87
+msgid "Post count"
+msgstr "Numero post"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:392
+msgid "Primary"
+msgstr "Primario"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Primary Menu"
+msgstr "Menu Primario"
+
+#. Text in function
+#: daydream/haku/update.php:126
+msgid "Profile Page"
+msgstr "Pagina Profilo"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:467
+#: daydream/includes/widget/latests.php:96
+#: daydream/haku/panel/options.php:897
+msgid "Random"
+msgstr "Casuale"
+
+#. Text in function
+#: daydream/includes/widget/latests.php:1
+msgid "Recent Articles"
+msgstr "Articoli Recenti"
+
+#. Text in function
+#: daydream/includes/widget/comments.php:1
+msgid "Recent Comments"
+msgstr "Commenti Recenti"
+
+#. Text in function
+#: daydream/includes/widget/comments.php:1
+msgid "Recent comments"
+msgstr "Commenti Recenti"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:139
+#: daydream/includes/widget/screenshots.php:102
+#: daydream/includes/widget/screenshots.php:142
+#: daydream/includes/widget/screenshots.php:182
+msgid "Recommended size:"
+msgstr "Dimensione consigliata:"
+
+#. Text in function
+#: daydream/functions.php:664
+msgid "Reply"
+msgstr "Replica"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:25
+msgid "Reset"
+msgstr "Azzera"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:56
+msgid "Reset Options"
+msgstr "Azzera Opzioni"
+
+#. Text in echo
+#: daydream/includes/widget/screenshots.php:178
+msgid "Right Item"
+msgstr "Elemento Destro"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:98
+msgid "Roadmap"
+msgstr "Mappa"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:99
+msgid "Satellite"
+msgstr "Satellite"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:37
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+#. Text in function
+#: daydream/includes/widget/screenshots.php:1
+msgid "Screenshots"
+msgstr "Screenshot"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:801
+msgid "Scroll Down"
+msgstr "Scorri In Basso"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:804
+msgid "Scroll Horizontally"
+msgstr "Scorri Orizzontalmente"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:802
+msgid "Scroll Left"
+msgstr "Scorri A Sinistra"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:803
+msgid "Scroll Right"
+msgstr "Scorri A Destra"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:800
+msgid "Scroll Up"
+msgstr "Scorri In Alto"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:805
+msgid "Scroll Vertically"
+msgstr "Scorri Verticalmente"
+
+#. Text in function
+#: daydream/searchform.php:5
+#: daydream/includes/widget/search.php:1
+#: daydream/showcase.php:111
+msgid "Search"
+msgstr "Cerca"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Search Filters"
+msgstr "Cerca Filtri"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Search Items"
+msgstr "Cerca Elementi"
+
+#. Text in function
+#: daydream/haku/panel/panel.php:40
+msgid "Search Settings"
+msgstr "Cerca"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:469
+msgid "Secondary"
+msgstr "Secondario"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:187
+msgid "Send"
+msgstr "Invia"
+
+#. Text in echo
+#: daydream/includes/widget/contact-form.php:130
+msgid "Send to:"
+msgstr "Invia a:"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Sent by:"
+msgstr "Inviato da:"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Separate filters with commas (e.g. red, blue, green)"
+msgstr "Separa i filtri con le virgole (es. rosso, blu, verde)"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:103
+msgid "Setup"
+msgstr "Impostazione"
+
+#. Text in echo
+#: daydream/includes/widget/comments.php:86
+msgid "Short"
+msgstr "Corto"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:50
+msgid "Shortcodes List"
+msgstr "Lista Shortcode"
+
+#. Text in function
+#: daydream/single.php:26
+#: daydream/index.php:26
+#: daydream/showcase.php:173
+#: daydream/showcase.php:185
+msgid "Show more"
+msgstr "Mostra altri"
+
+#. Text in echo
+#: daydream/includes/widget/latests.php:80
+msgid "Show pictures"
+msgstr "Mostra immagini"
+
+#. Text in echo
+#: daydream/includes/widget/archives.php:75
+#: daydream/includes/widget/categories.php:77
+msgid "Show post count"
+msgstr "Mostra numero post"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1622
+msgid "Showcase"
+msgstr "Showcase"
+
+#. Text in function
+#: daydream/includes/metabox.php:1
+msgid "Showcase Settings"
+msgstr "Impostazioni Showcase"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1760
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#. Text in function
+#: daydream/haku/panel/actions.php:541
+msgid "Sidebar generated by %s for \"%s\" using %s!"
+msgstr "Sidebar generata da %s per \"%s\" utilizzando %s!"
+
+#. Text in echo
+#: daydream/includes/metabox/page_attributes.php:147
+msgid "Sidebar:"
+msgstr "Sidebar:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2263
+msgid "Sidebars"
+msgstr "Sidebar"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:26
+msgid "Single Column"
+msgstr "Colonna Singola"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:90
+msgid "Size:"
+msgstr "Dimensione:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:899
+msgid "Slice Down"
+msgstr "Affetta"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:915
+#: daydream/haku/panel/options.php:925
+msgid "Slices"
+msgstr "Fette"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:146
+#: daydream/haku/panel/options.php:1125
+msgid "Slide"
+msgstr "Slide"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:683
+#: daydream/haku/panel/options.php:692
+msgid "Slider"
+msgstr "Slider"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:620
+msgid "Slider Area"
+msgstr "Area Slider"
+
+#. Text in function
+#: daydream/haku/panel/options.php:1192
+#: daydream/haku/panel/options.php:2248
+msgid "Slides"
+msgstr "Slide"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:25
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:53
+msgid "Slideshow height:"
+msgstr "Altezza Slideshow:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:45
+msgid "Slideshow layout"
+msgstr "Layout Slideshow"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:74
+msgid "Slideshow settings"
+msgstr "Impostazioni Slideshow"
+
+#. Text in function
+#: daydream/haku/config.php:1
+msgid ""
+"Sorry, there was an unxpected error - try again. \\n"
+"\\n"
+"If this error keeps annoying you, please, contact the theme author Stefano at winterbits@gmail.com or open a new help request on help.winterbits.com. Thanks! \\n"
+"\\n"
+"Error code: %s"
+msgstr ""
+"Spiacenti, ma c'è stato un errore inaspettato - prova ancora. \\n"
+"\\n"
+"Se questo errore continua ad annoiarti, perfavore, contatta l'autore del tema Stefano all'indirizzo winterbits@gmail.com o apri una nuova richiesta di aiuto su help.winterbits.com Grazie! \\n"
+"\\n"
+"Codice Errore: %s"
+
+#. Text in echo
+#: daydream/not-found.php:3
+msgid "Sorry, we couldn&rsquo;t find who you were looking for."
+msgstr "Spiacenti, ma non siamo riusciti a trovare quello che stavi cercando."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1574
+msgid "Standby Colour"
+msgstr "Colore"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1691
+msgid "Structure"
+msgstr "Struttura"
+
+#. Text in function
+#: daydream/haku/panel/options.php:374
+#: daydream/haku/panel/options.php:1198
+msgid "Styling"
+msgstr "Stile"
+
+#. Text in echo
+#: daydream/includes/widget/contact-form.php:142
+msgid "Success message:"
+msgstr "Messaggio successo:"
+
+#. Text in function
+#: daydream/haku/panel/options.php:1192
+msgid "Switch to the \"%s\" section to start managing Slides!"
+msgstr "Spostati sulla sezione \"%s\" per iniziare a gestire le Slide!"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1923
+msgid "Tags"
+msgstr "Tag"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:100
+msgid "Terrain"
+msgstr "Terreno"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:546
+msgid "Tertiary"
+msgstr "Terziario"
+
+#. Text in function
+#: daydream/includes/widget/testimonials.php:1
+msgid "Testimonials"
+msgstr "Testimonial"
+
+#. Text in function
+#: daydream/includes/widget/text.php:1
+msgid "Text"
+msgstr "Testo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1490
+msgid "Text Colour"
+msgstr "Colore Testo"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1459
+msgid "Text Size"
+msgstr "Dimensione Testo"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "Thank you! We received your message."
+msgstr "Grazie! Abbiamo ricevuto il tuo messaggio."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:320
+msgid "The Tracking Code of your favorite Analytics Web Service."
+msgstr "Il codice tracking del tuo Servizio Web di Analytics preferito."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1646
+msgid "The background colour of the Filtering Tags links."
+msgstr "Il colore di sfondo per i link delle Tag di Filtraggio."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:236
+msgid "The content displayed on the left side of the Footer."
+msgstr "Il contenuto mostrato sul lato sinistro del Footer."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1718
+msgid "The default pages layout. You can customize each page settings in the edit mode."
+msgstr "Il layout di default per le pagine. Puoi personalizzare le impostazioni di ogni pagina nella modalità modifica."
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:123
+msgid "The height of all columns."
+msgstr "L'altezza di tutte le colonne."
+
+#. Text in function
+#: daydream/haku/panel/options.php:374
+msgid "The main colour of your website. Switch to \"%s\" to customize the Menu Bar colour."
+msgstr "I colore principale del tuo sito. Spostati nella sezione \"%s\" per personalizzare il colore della Barra di Navigazione."
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:282
+msgid "The number of items to show in each page."
+msgstr "Il numero di elementi da mostrare in ogni pagina."
+
+#. Text in function
+#: daydream/haku/panel/options.php:2101
+msgid "The selected categories will be excluded from every single section of your awesome website (%s)."
+msgstr "Le categorie selezionate verranno esclusa da ogni singola sezione del tuo sito (%s)."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:771
+msgid "The transition speed between slides."
+msgstr "La velocità di transizione tra le slide."
+
+#. Text in function
+#: daydream/haku/panel/options.php:263
+#: daydream/haku/panel/options.php:290
+msgid "The url to your %s profile."
+msgstr "L'indirizzo al tuo profilo di %s."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2209
+msgid "Theme Updates"
+msgstr "Aggiornamenti Tema"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:344
+msgid "Theme colour"
+msgstr "Colore Tema"
+
+#. Text in echo
+#: daydream/haku/update.php:116
+msgid "Things you should know"
+msgstr "Cose che dovresti sapere"
+
+#. Text in function
+#: daydream/includes/widget/contact-form.php:1
+msgid "This email was sent through your website's contact form widget. You can reply to this email."
+msgstr "Questa email è stata inviato dal widget modulo di contatto del tuo sito. Puoi rispondere a questa email."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:587
+msgid "This pattern will be applied to Footer."
+msgstr "Questo motivo verrà applicato al Footer."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:433
+msgid "This pattern will be applied to the \"Hero\" block, where the Slider and Page Titles are placed by default."
+msgstr "Questo motivo verrà applicato al blocco \"Hero\", dove lo Slider e i titoli della pagine sono posizionati di default."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:510
+msgid "This pattern will be applied to the \"Tools\" area and to some secondary elements."
+msgstr "Questo motivo verrà applicato all'area \"Strumenti\" e a qualche elemento secondario."
+
+#. Text in echo
+#: daydream/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Questo post è protetto ad una password. Inserisci la password per visualizzare i commenti."
+
+#. Text in function
+#: daydream/functions.php:544
+msgid "This post is password protected. To view it enter your password below."
+msgstr "Questo post è protetto da una password. Per vederlo devi inserire la password in basso."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:740
+msgid "This setting only covers the Sliders that require a fixed height like the Nivo Slider and the Orbit Slider."
+msgstr "Questa impostazione copre solo gli Slider che necessitano di un altezza fissa come il Nivo Slider e Orbit Slider."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:856
+msgid "Timeout"
+msgstr "Timeout"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1087
+msgid "Timer"
+msgstr "Timer"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:466
+#: daydream/includes/widget/latests.php:94
+#: daydream/haku/panel/options.php:143
+msgid "Title"
+msgstr "Titolo"
+
+#. Text in echo
+#: daydream/includes/widget/twitter.php:67
+#: daydream/includes/widget/comments.php:72
+#: daydream/includes/widget/maps.php:72
+#: daydream/includes/widget/video.php:71
+#: daydream/includes/widget/latests.php:73
+#: daydream/includes/widget/contact-form.php:124
+#: daydream/includes/widget/archives.php:68
+#: daydream/includes/widget/screenshots.php:108
+#: daydream/includes/widget/screenshots.php:148
+#: daydream/includes/widget/screenshots.php:188
+#: daydream/includes/widget/categories.php:70
+msgid "Title:"
+msgstr "Titolo:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2167
+msgid "To apply your Gravatar image, go to Settings &rarr; Discussion, scroll to the bottom of the page and select it."
+msgstr "Per applicare la tua immagine Gravatar, vai in Impostazioni &rarr; Discussione, scrolla alla fine della pagina e selezionalo."
+
+#. Text in function
+#: daydream/haku/functions.php:1
+msgid "Today"
+msgstr "Oggi"
+
+#. Text in function
+#: daydream/includes/shortcodes.php:1
+msgid "Toggle content"
+msgstr "Mostra contenuto"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:414
+msgid "Tools"
+msgstr "Strumenti"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:282
+msgid "Total posts:"
+msgstr "Totale post:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2013
+msgid "Trackbacks"
+msgstr "Trackback"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:308
+msgid "Tracking Code"
+msgstr "Codice Tracking"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1058
+msgid "Transition Effect"
+msgstr "Effetto Transizione"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:755
+msgid "Transition Speed"
+msgstr "Velocità Transizione"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:82
+msgid "Transition effect:"
+msgstr "Effetto Transizione:"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:111
+msgid "Transition speed:"
+msgstr "Velocità Transizione:"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:251
+msgid "Twitter Link"
+msgstr "Link Twitter"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1983
+msgid "Twitter Sharing"
+msgstr "Condivisione Twitter"
+
+#. Text in function
+#: daydream/functions.php:1
+msgid "Update Filter"
+msgstr "Aggiorna Filtro"
+
+#. Text in function
+#: daydream/haku/update.php:121
+msgid "Updating a theme is pretty much like installing it. Download it, extract the .zip package, find the theme folder (do not upload the entire package!). Now, if you have no idea of what a FTP connection is, simply delete the current version of %s and upload the new one. Otherwise, connect to your server, navigate to the WordPress themes folder and replace the whole theme folder."
+msgstr "Il processo di aggiornamento di un tema è proprio come l'installazione. Scaricalo, estrai il pacchetto .zip, trova la cartella del tema (non caricare l'intero \"package\"!). Ora, se non hai idea di cosa sia una connessione FTP, elimina la versione corrente di %s e carica la nuova. Se invece sai cos'è, connettiti al tuo server, naviga nella cartella dei temi di WordPress e sostituisci l'intera cartella del tema."
+
+#. Text in echo
+#: daydream/haku/panel/actions.php:217
+msgid "Url"
+msgstr "Url"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:76
+#: daydream/includes/widget/video.php:77
+msgid "Url:"
+msgstr "Url:"
+
+#. Text in function
+#: daydream/haku/panel/actions.php:522
+msgid "Usage: %s"
+msgstr "Utilizzo: %s"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:632
+msgid "Use Custom Content"
+msgstr "Usa Contenuto Personalizzato"
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:128
+msgid "Use Icons"
+msgstr "Usa Icone"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:13
+#: daydream/haku/panel/actions.php:243
+#: daydream/includes/widget/screenshots.php:129
+#: daydream/includes/widget/screenshots.php:169
+#: daydream/includes/widget/screenshots.php:209
+msgid "Use Lightbox"
+msgstr "Usa Lightbox"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:56
+msgid "Use Plain Text Logo"
+msgstr "Usa Logo Testuale"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:157
+msgid "Use the exact same value on every item you want to group."
+msgstr "Usa lo stesso valore sugli elementi che vuoi raggruppare."
+
+#. Text in echo
+#: daydream/includes/widget/twitter.php:73
+msgid "Username:"
+msgstr "Nome utente:"
+
+#. Text in echo
+#: daydream/haku/panel/panel.php:85
+msgid "Version"
+msgstr "Versione"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_settings.php:95
+#: daydream/haku/panel/options.php:1070
+msgid "Vertical Slide"
+msgstr "Muovi Verticalmente"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:57
+msgid "Video"
+msgstr "Video"
+
+#. Text in echo
+#: daydream/includes/metabox/showcase_item_attributes.php:58
+#: daydream/comments.php:64
+msgid "Website"
+msgstr "Sito internet"
+
+#. Text in echo
+#: daydream/haku/update.php:133
+msgid "What&rsquo;s changed?"
+msgstr "Cosa è cambiato?"
+
+#. Text in echo
+#: daydream/includes/widget/video.php:86
+msgid "Width:"
+msgstr "Larghezza:"
+
+#. Text in function
+#: daydream/comments.php:64
+msgid "Will not be published"
+msgstr "Non sarà pubblicata"
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2110
+msgid "WordPress"
+msgstr "WordPress"
+
+#. Text in function
+#: daydream/haku/functions.php:1
+msgid "Yesterday"
+msgstr "Ieri"
+
+#. Text in echo
+#: daydream/haku/panel/actions.php:140
+msgid "You can also enter a Youtube, Vimeo or HTML5 video link."
+msgstr "Puoi anche inserire un link di Youtube, Vimeo o a un video HTML5."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:2277
+msgid "You can assign a different Sidebar to each page choosing your Sidebar under the \"Page Attributes\" Box when in the edit mode."
+msgstr "Puoi assegnare una Sidebar differente ad ogni pagina selezionando la tua Sidebar nel blocco \"Attributi Pagina\" nella modalità modifica."
+
+#. Text in echo
+#: daydream/includes/widget/columns.php:139
+msgid "You can either enter a url to a custom icon or a number referencing to a Daydream icon."
+msgstr "Puoi anche inserire un url ad un'icona personalizzata o  un numero riferente ad un'icona di Daydream."
+
+#. Text in function
+#: daydream/includes/widget/testimonials.php:75
+msgid "You can hide the chosen category from all other areas of your website navigating to the \"%s\" section of the Daydream Control Panel."
+msgstr "Puoi nascondere la categoria selezionata da tutte le altre aree del tuo sito spostandoti alla sezione \"%s\" del Pannello di Controllo di Daydream."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:1676
+msgid "You can paste here any CSS code and it will be automatically applied to the theme."
+msgstr "Qui puoi incollare qualsiasi codice CSS e verrà automaticamente applicato al tema."
+
+#. Text in echo
+#: daydream/haku/panel/options.php:236
+#: daydream/haku/panel/options.php:674
+#: daydream/haku/panel/actions.php:169
+#: daydream/includes/widget/text.php:77
+msgid "You can use Shortcodes."
+msgstr "Puoi utilizzare gli Shortcode."
+
+#. Text in echo
+#: daydream/functions.php:653
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#. Text in echo
+#: daydream/haku/update.php:118
+msgid "Your theme path:"
+msgstr "Percorso al tuo tema:"
+
+#. Text in echo
+#: daydream/haku/update.php:123
+msgid "Your themes path:"
+msgstr "Percorso ai tuoi temi:"
+
+#. Text in echo
+#: daydream/includes/widget/maps.php:84
+msgid "Zoom:"
+msgstr "Ingrandimento:"
+
+#. Text in function
+#: daydream/haku/panel/options.php:953
+msgid "columns"
+msgstr "colonne"
+
+#. Text in function
+#: daydream/includes/metabox/showcase_item_attributes.php:150
+msgid "e.g."
+msgstr "es."
+
+#. Text in function
+#: daydream/haku/panel/options.php:765
+#: daydream/haku/panel/options.php:866
+#: daydream/haku/panel/options.php:1009
+#: daydream/haku/panel/options.php:1152
+#: daydream/haku/panel/options.php:1180
+msgid "milliseconds"
+msgstr "millisecondi"
+
+#. Text in function
+#: daydream/comments.php:64
+msgid "or cancel reply"
+msgstr "or annulla risposta"
+
+#. Text in function
+#: daydream/haku/panel/options.php:981
+msgid "rows"
+msgstr "righe"
+
+#. Text in function
+#: daydream/includes/widget/columns.php:147
+msgid "with icons"
+msgstr "con icone"
+

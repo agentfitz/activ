@@ -1,0 +1,111 @@
+/*
+ *  Haku Framework
+ *  Handcrafted by Stefano Giliberti
+ *  winterbits@gmail.com
+ *  winterbits.com
+ */
+
+.haku_metabox_container {
+	border-color: #d7d7d7 !important;
+}
+	
+	.haku_metabox_container .hndle {
+		background: #d21a1a;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2bdbd', endColorstr='#d00e0e',GradientType=0 );
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2bdbd), color-stop(100%,#d00e0e));
+		background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+		background: -moz-linear-gradient(top, #f2bdbd 0%, #d00e0e 100%);
+		background: -o-linear-gradient(top, #f2bdbd 0%,#d00e0e 100%);
+		background: -ms-linear-gradient(top, #f2bdbd 0%,#d00e0e 100%);
+		background: linear-gradient(top, #f2bdbd 0%,#d00e0e 100%);
+		border-bottom: 1px solid #d7d7d7;
+	}
+	
+		.haku_metabox_container .hndle span {
+			background: url(metabox.png) left center no-repeat;
+			padding-left: 25px;
+		}
+
+.haku_metabox ::-webkit-input-placeholder { 
+	color: #a8a8a8;
+	font-weight: bold;
+}
+
+.haku_metabox :-moz-placeholder { 
+	color: #a8a8a8 !important;
+	font-weight: bold;
+}
+
+.haku_metabox .placeholder { 
+	color: #a8a8a8 !important;
+	font-weight: bold;
+}
+
+.haku_metabox {
+	padding: 0 0 2px 3px;
+	font-size: 13px;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.haku_metabox hr {
+	display: block;
+	border: 0;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #fff;
+	margin: 7px 0 2px;
+	padding: 0;
+}
+
+.haku_metabox .haku_metabox_group {
+	padding: 8px 0 6px;
+	overflow: hidden;
+}
+
+		.haku_metabox .haku_metabox_group > .aside {
+		width: 19%;
+		float: left;
+		padding-top: 5px;
+	}
+	
+	.haku_metabox .haku_metabox_group > .section {
+		width: 80%;
+		float: left;
+	}
+
+.haku_metabox label {
+	display: inline;
+	font-weight: bold;
+	color: #5e5e5e;
+}
+
+.haku_metabox span {
+	font-size: 12px;
+	display: block;
+	margin-top: 4px;
+	color: #666;
+	line-height: 18px;
+}
+
+.haku_metabox input[type="text"] {
+	width: 99%;
+}
+
+.haku_metabox input[type="checkbox"] {
+	margin-top: 5px;
+}
+
+.haku_metabox select {
+	display: block;
+	width: 250px;
+	margin-top: 2px;
+}
+ 
+.haku_metabox h4 {
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	color: #6a6a6a;
+	font-size: 15px;
+	font-weight: normal;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #d4d4d4;
+	margin: 15px 0 0 0;
+}

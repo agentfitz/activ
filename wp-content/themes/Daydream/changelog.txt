@@ -1,0 +1,124 @@
+/*****************/
+/*   Changelog   */
+
+15 November, 2.3:
+	Fix: Now the Daydream Slider navigation is displayed only when necessary.
+	Adjustments: Fixed some Control Panel minor errors and wrong descriptions.
+	Update: jQuery
+	
+	@ style.css
+	@ js/wb.daydream.js (!)
+	@ haku/panel/actions.php (!)
+	
+	@ js/jquery.js (!)
+
+26 October, 2.2:
+	Fix: Now the Testimonials Slider works properly in Front page when using alternative Homepage Sliders.
+	Adjustment: Improvements for the "(Daydream) Contact Form" Widget.
+	
+	@ style.css
+	@ includes/widget/testimonials.php (!)
+	@ includes/widget/contact-form.php (!)
+	@ js/wb.daydream.js (!)
+
+19 October, 2.1:
+	Fix: Fixed a permission bug for the "(Daydream) Contact Form" widget.
+	
+	@ style.css
+	@ includes/widget/contact-form.php (!)
+
+11 October, 2.0:
+	Fix: Now the Togglers work properly when used inside Tabs.
+	
+	@ style.css (!)
+
+6 October, 1.9:
+	Adjustment: Removed a Body Font option duplicate.
+	Adjustment: Haku Framework branding update.
+	
+	@ style.css
+	@ haku/panel/options.php (!)
+	@ haku/panel/includes/images/structure/haku.png (!)
+
+20 September 2011, 1.8:
+	Adjustment: Minor CSS fix for the "(Daydream) Recent Comments" Widget.
+	New Feature: Added the 3/4 and 2/3 column sizes and alternative keys (1/2, 1/3 etc.) to all columns.
+	New Feature: Added the Google +1 Share Button.
+	
+	@ style.css (!)
+	@ includes/shortcodes.php (!)
+	@ haku/config.php (!)
+	@ haku/panel/options.php (!)
+	@ loop.php (!)
+	@ content-single.php (!)
+	@ docs/Help.html
+
+17 September 2011, 1.7:
+	Fix: Now the "(Daydream) Recent Comments" Widget displays the ellipsis correctly.
+	New Feature: Now you can use a custom size attribute (e.g. 120x240) when using the [youtube], [vimeo] or the [video] Shortcode.
+	Adjustment: Now the blog comments are more secure.
+	Adjustment: Minor HTML fix for the "awaiting approval" message.
+	
+	@ style.css
+	@ includes/widget/comments.php (!)
+	@ includes/shortcodes.php (!)
+	@ functions.php (!)
+
+16 September 2011, 1.6:
+	Adjustment: Minor UI fix for the "Moss" colour.
+	Adjustment: Added a little username helper for Twitter services.
+	Fix: Now the personal stylesheet for the lovely Internet Explorer works as it should.
+	
+	@ style.css
+	@ colours/moss/arrow_left.png (!)
+	@ ie-style.php (!)
+	@ haku/config.php
+	@ haku/functions.php (!)
+
+15 September 2011, 1.5:
+	Fix: A PHP Warning when the Slider is enabled but no Slide was added.
+	
+	@ style.css
+	@ haku/config.php
+	@ haku/functions.php (!)
+	@ haku/panel/actions.php (!)
+	@ haku/panel/options.php (!)
+	@ slider-jcycle.php (!)
+	@ slider-nivoslider.php (!)
+	@ slider-orbit.php (!)
+	@ functions.php (!)
+	
+14 September 2011, 1.4:
+	Adjustment: Fixed a search input graphic bug for iOS WebKit devices.
+	
+	@ style.css (!)
+
+13 September 2011, 1.3:
+	Adjustment: Now the Posts Page is not highlighted when viewing a Showcase Item page.
+	Update: CSS3PIE, jQuery
+	
+	@ style.css
+	@ functions.php (!)
+	
+	@ js/PIE.htc (!)
+	@ js/jquery.js (!)
+
+12 September 2011, 1.2:
+	Fix: Now the custom stylings work when using a custom permalinks structure.
+	
+	@ style.css
+	@ user.php (!)
+
+10 September 2011, 1.1:
+	Adjustment: The Archives now do not count the posts from excluded categories.
+	Fix: The Twitter Share button now redirects to the correct page.
+	
+	@ style.css
+	@ functions.php (!)
+	@ haku/config.php
+	@ haku/functions.php (!)
+	@ loop.php (!)
+	@ content-single.php (!)
+
+7 September 2011, 1.0:
+	Initial release!
