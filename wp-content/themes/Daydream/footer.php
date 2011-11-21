@@ -1,4 +1,5 @@
 	<!-- Widgets columns -->
+	<?php /* ?>
 	<section id="dock-area" class="clearfix">
 		
 		<!-- 978 container -->
@@ -57,6 +58,7 @@
 		
 	</section>
 	<!-- end: Widgets columns -->
+	<?php */ ?>
 	
 	<?php if ( get_theme_option('footer_left_content') || get_theme_option('footer_right_twitter') || get_theme_option('footer_right_facebook')  ) : ?>
 	

@@ -11,9 +11,15 @@ header("Content-type: text/css");
 	GOOGLE WEB FONT
 ----------------------------------------------------------------------------*/
 
+
+ul#serviceOfferings li {
+	font-family: "<?php echo haku_get_font_name( get_theme_option('google_webfont') ); ?>", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "<?php echo haku_get_font_name( get_theme_option('google_webfont') ); ?>", sans-serif;
 }
+
 
 #hero .container > span {
 	font-family: "<?php echo haku_get_font_name( get_theme_option('google_webfont') ); ?>", sans-serif;
@@ -30,7 +36,7 @@ $pattern = ( get_theme_option('custom_primary_pattern') ? get_theme_option('cust
 ?>
 
 #hero {
-	background: url(<?php echo $pattern; ?>) repeat;
+	/* background: url(<?php echo $pattern; ?>) repeat; */
 }
 
 

@@ -98,6 +98,7 @@ class daydream_testimonials extends WP_Widget {
 		
 		<!-- Testimonials -->
 		
+		
 		<div class="testimonials_slider clearfix">
 			
 			<?php if ( $testimonials->have_posts() ) : while ( $testimonials->have_posts() ) : $testimonials->the_post(); ?>
@@ -109,7 +110,8 @@ class daydream_testimonials extends WP_Widget {
 				<div>
 					
 					<!-- Picture -->
-					<?php if ( has_post_thumbnail() ) the_post_thumbnail('full', array('title' => '') ); ?>
+					<?php /*if ( has_post_thumbnail() ) the_post_thumbnail('full', array('title' => '') );*/ ?>
+					<?php if ( has_post_thumbnail() ) the_post_thumbnail(array(150, 150), array('title' => '') ); ?>
 					
 					<!-- Bubble -->
 					<div>

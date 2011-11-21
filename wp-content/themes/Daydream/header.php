@@ -34,6 +34,8 @@
 	<!-- Pingback -->
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	
 	<!--[if (gte IE 6)&(lte IE 8)]>
 	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/selectivizr-min.js"></script>
 	<![endif]-->
@@ -47,7 +49,9 @@
 	
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> id="<?php echo the_slug(); ?>">
+
+<?php remove_filter ('the_content', 'wpautop'); /* STOPS WORDPRESS FROM ADDING FRIGGIN P TAGS */ ?>
 	
 	<!-- Top bar -->
 	<header>
@@ -63,7 +67,7 @@
 			<div id="top_nav">
 				<span>get started</span>
 				<div id="top_nav_inner">
-					<a href="#">request a proposal</a>				
+					<a href="#" class="button small">free consultation</a>				
 				</div>
 			</div>
 			
@@ -76,3 +80,55 @@
 				
 	</header>
 	<!-- end: Top bar -->
+	
+	
+<script>
+	$(function(){
+		var $benefits = $("#primaryBenefitsList li");
+		var counter = 0;
+		
+		$benefits.each(function(i, elem){
+			$li = $(this);
+			$li.find("span").html("<a href='#' id='nextBenefit'>" + getNextBenefitText(i) + "</a> | <a href='index.cfm?event=showTour&amp;feature=" + $li.attr("rel") + "'>learn more</a>");
+		});
+		
+		$("a#nextBenefit").click(function(e){
+			var $thisBenefit = $benefits.filter(".active");
+			var $nextBenefit = $thisBenefit.next();
+			if($nextBenefit.length == 0){
+				window.location = "/about";
+			}
+			else{
+				$thisBenefit.removeClass("active");
+				$nextBenefit.addClass("active");
+			}
+			e.preventDefault();
+		});
+		
+		function getNextBenefitText(){
+			var listText = "what else?,so what?,tell me more,that all you got?,I'm not impressed,interesting";
+			var textArr = listText.split(",");
+			if(counter >= textArr.length){
+				counter = 0;
+			}
+			var thisItem = textArr[counter];
+			counter++;
+			return thisItem;
+		}
+		
+	});
+</script>
+	
+	<?php if(is_front_page()){ ?>
+		<div id="tagline_wrapper">
+			<div id="tagline_container">
+				<h1><a href="#" id="nextBenefit">tell me more about Lefty</a></h1>
+				<ul id="primaryBenefitsList">
+					<li class="active"><h1>Lefty is a full service web design and development agency</h1></li>
+					<li><h1>At Lefty, we make our clients more efficient &ndash; and more profitable</h1></li>
+					<li><h1>Lefty believes in building websites that are easy to maintain</h1></li>
+					<li><h1>Lefty understands the importance of reaching your target market online</h1></li>
+				</ul>				
+			</div>
+		</div>
+	<?php } ?>

@@ -3,6 +3,7 @@
  *  TEMPLATE NAME: Widgetized Homepage
  */
 ?>
+
 <?php get_header(); ?>
 
 <?php get_template_part('hero'); ?>
@@ -26,11 +27,14 @@
 			?>
 			<div id="homeProjectContainer">
 				<h3>Check out some of our recent projects</h3>
-				<?php while($projects->have_posts()): $projects->the_post(); ?>
+				<?php
+					$counter = 1; 
+					while($projects->have_posts() && $counter < 4): $projects->the_post(); ?>
 				<div class="project">
-					<?php $img_attr = array(
-						'title' => 'turtles'
-					); ?>
+					<?php 
+						$img_attr = array( 'title' => 'turtles' );
+					 	$counter++;
+					?>
 					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 						<?php echo get_the_post_thumbnail($post->ID, array(150,150), $img_attr ); ?>
 					</a>
@@ -47,6 +51,7 @@
 	<?php endif; ?>
 	
 	<!-- 978 content container -->
+	<?php /* ?>
 	<section id="content" class="container clearfix">
 		
 		<!-- Home content -->
@@ -65,5 +70,6 @@
 		
 	</section>
 	<!-- end: Container -->
+	<?php */ ?>
 	
 <?php get_footer(); ?>

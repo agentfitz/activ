@@ -168,8 +168,13 @@ body > header {
 	Slider, Page headings container
 */
 #hero {
-	background: url(../../images/patterns/pattern_01.png) repeat;
+	/*background: url(../../images/patterns/pattern_01.png) repeat;*/	
+	background: url("/wp-content/themes/Daydream/images/patterns/blackmamba.png");
 	color: #777;
+}
+
+.home #hero {
+	background: url(../../images/patterns/pattern_01.png) repeat;	
 }
 	
 	/*
